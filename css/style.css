@@ -47,6 +47,15 @@
 
 ---------------------------------------------------------------- */
 /* ====================== [ Start Typography  ] ====================== */
+
+/* Import Montserrat font from Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+/* Use Montserrat font for body text */
+.mont-font {
+  font-family: "Montserrat", sans-serif;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -1734,7 +1743,7 @@ body {
   cursor: pointer;
 }
 .navbar .logo {
-  width: 200px;
+  width: 250px;
 }
 
 .nav-scroll {
@@ -5772,7 +5781,7 @@ header.simpl .caption .btn-curve {
   margin-bottom: 30px;
 }
 .footer-half .cont .logo {
-  width: 150px;
+  width: 200px;
   margin-bottom: 30px;
 }
 .footer-half .cont .con-info li {
@@ -5825,6 +5834,9 @@ header.simpl .caption .btn-curve {
 }
 .cont-info .social a:hover {
   background: rgba(255, 255, 255, 0.1);
+}
+.cont .social-icon a:hover {
+  background: rgba(255, 255, 255, 0.3);
 }
 
 .footer-half .subscribe p {
