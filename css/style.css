@@ -1784,7 +1784,7 @@ body {
   padding: 0 50px;
 }
 .topnav .logo {
-  width: 50px;
+  width: 150px;
 }
 .topnav .menu-icon {
   margin-left: auto;
@@ -5977,7 +5977,7 @@ header.simpl .caption .btn-curve {
   }
   .navbar .logo {
     margin-left: 15px;
-    width: 50px;
+    width: 100px;
   }
   .nav-scroll .navbar-collapse .nav-link,
   .light .navbar-collapse .nav-link {
@@ -6245,7 +6245,7 @@ header.simpl .caption .btn-curve {
     bottom: 15px;
   }
   .navbar .logo {
-    width: 40px;
+    width: 80px;
   }
   .hamenu .menu-links .main-menu > li {
     font-size: 24px;
@@ -6568,4 +6568,176 @@ button:hover {
   margin-bottom: 16px;
   font-weight: 300;
   color: #999999;
+}
+
+.name {
+  font-family: "Montserrat";
+  font-size: 60px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.looking {
+  font-size: 22px;
+  font-weight: 600;
+  color: white;
+}
+
+.lets a {
+  margin: 30px 0;
+}
+
+.lets a span {
+  font-weight: 500;
+  font-size: 26px;
+}
+
+.designing {
+  font-size: 26px;
+  font-family: "Montserrat";
+  font-weight: 600;
+  color: white;
+}
+
+/* For screens smaller than 576px (e.g. smartphones) */
+@media (max-width: 575.98px) {
+  .mouse-cursor {
+    display: none;
+  }
+  .name {
+    font-size: 30px;
+  }
+  .looking {
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+  }
+  .lets a span {
+    font-weight: 500;
+    font-size: 16px;
+  }
+  .lets a {
+    margin-bottom: 0;
+  }
+  .designing {
+    font-size: 26px;
+    font-family: "Montserrat";
+    font-weight: 600;
+    color: white;
+  }
+}
+
+/* For screens between 576px and 768px (e.g. tablets) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .mouse-cursor {
+    display: none;
+  }
+  .name {
+    font-size: 40px;
+  }
+  .looking {
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+  }
+  .lets a span {
+    font-weight: 500;
+    font-size: 20px;
+  }
+  .lets a {
+    margin-bottom: 0;
+  }
+  .designing {
+    font-size: 26px;
+    font-family: "Montserrat";
+    font-weight: 600;
+    color: white;
+  }
+}
+
+/* For screens between 768px and 992px (e.g. small laptops) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .name {
+    font-size: 50px;
+  }
+  .looking {
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+  }
+  .lets a span {
+    font-weight: 500;
+    font-size: 20px;
+  }
+  .lets a {
+    margin-bottom: 0;
+  }
+  .designing {
+    font-size: 26px;
+    font-family: "Montserrat";
+    font-weight: 600;
+    color: white;
+  }
+}
+
+/* For screens between 992px and 1200px (e.g. large laptops) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .cont {
+    padding: 0 30px;
+  }
+  .name {
+    font-size: 50px;
+  }
+  .looking {
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+  }
+  .lets a span {
+    font-weight: 500;
+    font-size: 20px;
+  }
+  .lets a {
+    margin-bottom: 0;
+  }
+  .designing {
+    font-size: 26px;
+    font-family: "Montserrat";
+    font-weight: 600;
+    color: white;
+  }
+  .name br {
+    display: none;
+  }
+}
+
+/* For screens larger than 1200px (e.g. desktops) */
+@media (min-width: 1200px) {
+  .cont {
+    padding: 0 30px;
+  }
+  .name {
+    font-size: 60px;
+  }
+  .looking {
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+  }
+  .lets a span {
+    font-weight: 500;
+    font-size: 20px;
+  }
+  .lets a {
+    margin-bottom: 0;
+  }
+  .designing {
+    font-size: 26px;
+    font-family: "Montserrat";
+    font-weight: 600;
+    color: white;
+  }
+  .name br {
+    display: none;
+  }
 }
