@@ -5977,7 +5977,7 @@ header.simpl .caption .btn-curve {
   }
   .navbar .logo {
     margin-left: 15px;
-    width: 100px;
+    width: 200px;
   }
   .nav-scroll .navbar-collapse .nav-link,
   .light .navbar-collapse .nav-link {
@@ -6245,7 +6245,7 @@ header.simpl .caption .btn-curve {
     bottom: 15px;
   }
   .navbar .logo {
-    width: 80px;
+    width: 200px;
   }
   .hamenu .menu-links .main-menu > li {
     font-size: 24px;
@@ -6257,7 +6257,7 @@ header.simpl .caption .btn-curve {
     padding: 0 30px;
   }
   .topnav .logo {
-    width: 40px;
+    width: 100px;
   }
   .btn-curve {
     padding: 8px 15px;
