@@ -147,42 +147,11 @@
               <div class="form md-mb50">
                 <h4 class="extra-title mb-50">Get In Touch.</h4>
                 <!-- ================ Form Start ================ -->
-                <!-- <form
-                  action="https://formsubmit.co/manda.offline@gmail.com"
-                  method="POST"
-                >
-                  
-                  <input
-                    id="form_name"
-                    type="text"
-                    name="name"
-                    placeholder="Name"
-                    required="required"
-                  />
-
-                  <input
-                    id="form_email"
-                    type="email"
-                    name="email"
-                    placeholder="Email"
-                    required="required"
-                  />
-
-                  <textarea
-                    id="form_message"
-                    name="message"
-                    placeholder="Message"
-                    rows="4"
-                    required="required"
-                  ></textarea>
-
-                  <button type="submit" class="btn-curve btn-lit">
-                    <span>Send Message</span>
-                  </button>
-                </form> -->
                 <form
+                  enctype="multipart/form-data"
                   action="https://formsubmit.co/manda.offline@gmail.com"
                   method="POST"
+                  style="display: flex; flex-direction: column; row-gap: 30px"
                 >
                   <input type="text" name="_honey" style="display: none" />
                   <input type="hidden" name="_captcha" value="false" />
@@ -191,26 +160,235 @@
                     name="_next"
                     value="https://www.manda.website/"
                   />
-
-                  <input type="text" name="name" placeholder="Name" required />
                   <input
                     type="email"
-                    name="email"
+                    name="Email"
                     placeholder="Email"
                     required
                   />
-                  <textarea
-                    name="message"
-                    placeholder="Message"
-                    rows="4"
-                    required="required"
-                  ></textarea>
+                  <div class="two-col">
+                    <input
+                      type="text"
+                      name="First_Name"
+                      placeholder="First Name"
+                      required
+                    />
+                    <input
+                      type="text"
+                      name="Last_name"
+                      placeholder="Last Name"
+                      required
+                    />
+                  </div>
 
-                  <button type="submit" class="btn-curve btn-lit">
-                    <span>Send Message</span>
-                  </button>
+                  <div
+                    style="
+                      display: flex;
+                      flex-direction: column;
+                      column-gap: 30px;
+                    "
+                  >
+                    <div class="question">
+                      <h2>Logo should represent?</h2>
+                      <h3>How would you describe your business?</h3>
+                    </div>
+
+                    <div
+                      style="
+                        display: flex;
+                        flex-direction: row;
+                        column-gap: 30px;
+                      "
+                    >
+                      <div style="width: 50%">
+                        <div class="radio-group">
+                          <input
+                            type="radio"
+                            id="radio1"
+                            name="Logo_should_represent"
+                            value="Organized company"
+                          />
+                          <label for="radio1">Organized company</label>
+                        </div>
+                        <div class="radio-group">
+                          <input
+                            type="radio"
+                            id="radio2"
+                            name="Logo_should_represent"
+                            value="Startup"
+                          />
+                          <label for="radio2">Startup</label>
+                        </div>
+                      </div>
+                      <div style="width: 50%">
+                        <div class="radio-group">
+                          <input
+                            type="radio"
+                            id="radio3"
+                            name="Logo_should_represent"
+                            value="Freelance"
+                          />
+                          <label for="radio3">Freelance</label>
+                        </div>
+                        <div class="radio-group">
+                          <input
+                            type="radio"
+                            id="radio4"
+                            name="Logo_should_represent"
+                            value="Organization"
+                          />
+                          <label for="radio4">Organization</label>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="question">
+                    <h2>Select your industry</h2>
+                    <h3>
+                      Which industry most closely aligns with your company?
+                    </h3>
+                    <input type="text" name="Select_your_industry" />
+                  </div>
+
+                  <div class="question">
+                    <h2>How big is your company?</h2>
+                    <h3>Number of employees? Revenue?</h3>
+                    <input type="text" name="How_big_is_your_company?" />
+                  </div>
+
+                  <div class="question">
+                    <h2>
+                      If your customers had to describe your company in one
+                      word, what would it be and why?
+                    </h2>
+                    <input type="text" name="Describe_in_one_word" />
+                  </div>
+
+                  <div class="question">
+                    <h2>What name do you want in your logo?</h2>
+                    <input type="text" name="Name_in_logo?" />
+                  </div>
+
+                  <div class="question">
+                    <h2>
+                      What 3 attributes would you like your target audience to
+                      think of when looking at your new branding?
+                    </h2>
+                    <h3>Examples: Modernity, Professionalism, Strength.</h3>
+                    <input type="text" name="What_3_attributes?" />
+                  </div>
+
+                  <div class="question">
+                    <h2>Which colors do you prefer?</h2>
+                    <h3>
+                      What colours or colour palettes does the company
+                      typically use, and why?
+                    </h3>
+                    <input type="text" name="Preferred_colors" />
+                  </div>
+                  <div class="two-col">
+                    <div class="question">
+                      <h2>
+                        Are there any restrictions to consider when designing
+                        the new logo?
+                      </h2>
+                      <input type="text" name="Restrictions" />
+                    </div>
+
+                    <div class="question">
+                      <h2>
+                        Looking at your rivals branding, what logos do you think
+                        work, and why?
+                      </h2>
+                      <input type="text" name="Rivals_branding" />
+                    </div>
+                  </div>
+
+                  <div class="question">
+                    <h2>Is there anything that must be included?</h2>
+                    <h3>Like existing brand elements, words or icons?</h3>
+                    <input type="text" name="Must_be_included" />
+                  </div>
+
+                  <div class="question">
+                    <h2>
+                      Do you want to provide any additional info? Anything you
+                      do not want to see?
+                    </h2>
+                    <h3>
+                      Include links to things that inspired you, competitor
+                      information, or any other info. If you need special file
+                      formats, please list them here.
+                    </h3>
+                    <textarea
+                      name="Additional_info"
+                      placeholder="Message"
+                      rows="4"
+                      style="width: 100%"
+                    ></textarea>
+                  </div>
+
+                  <div class="question">
+                    <h2>Do you want to share any files?</h2>
+                    <input
+                      type="file"
+                      name="Shared_file"
+                      style="border: none; margin: 8px"
+                    />
+                  </div>
+
+                  <div class="question">
+                    <h2>
+                      Who will be the internal decision-makers on this project?
+                      Giving feedback and approvals?
+                    </h2>
+                    <h3>Fewer decision-makers, the better!</h3>
+                    <input type="text" name="Decision_makers" />
+                  </div>
+
+                  <div class="question">
+                    <h2>Specific deadline?</h2>
+                    <input
+                      type="date"
+                      name="Specific_deadline?"
+                      style="border: none"
+                    />
+                  </div>
+
+                  <div class="question">
+                    <h2>
+                      What kind of project budget (USD) could we expect to work
+                      with? Do you have a budget in mind for the new logo?
+                    </h2>
+                    <h3>
+                      This will give us a better idea of what we can do to meet
+                      your needs, and help us determine the timeline for
+                      completing the project.
+                    </h3>
+                    <input type="text" name="Budget" />
+                  </div>
+
+                  <div>
+                    <button
+                      style="border-radius: 0"
+                      type="submit"
+                      class="btn-curve btn-lit"
+                    >
+                      <span>Send Message</span>
+                    </button>
+                  </div>
                 </form>
                 <!-- ================ Form End ================ -->
+                <!-- <iframe
+                  src="https://docs.google.com/forms/d/e/1FAIpQLSeLPA-aGcaAVYaESCOXaTz62tISRyhAjy2yYT_-X4SrU7ITxg/viewform?embedded=true"
+                  width="640"
+                  height="947"
+                  frameborder="0"
+                  marginheight="0"
+                  marginwidth="0"
+                  >Loading…</iframe
+                > -->
               </div>
             </div>
             <div class="col-lg-5 offset-lg-1">
@@ -301,15 +479,5 @@
 
     <!-- custom scripts -->
     <script src="js/scripts.js"></script>
-
-    <!-- Map -->
-    <script src="js/map.js"></script>
-
-    <!-- google map api -->
-    <script
-      async
-      defer
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA5bpEs3xlB8vhxNFErwoo3MXR64uavf6Y&callback=initMap"
-    ></script>
   </body>
 </html>
