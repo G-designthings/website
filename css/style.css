@@ -6626,6 +6626,9 @@ button:hover {
     font-weight: 600;
     color: white;
   }
+  .up-ar {
+    display: none;
+  }
 }
 
 /* For screens between 576px and 768px (e.g. tablets) */
@@ -6654,6 +6657,9 @@ button:hover {
     font-weight: 600;
     color: white;
   }
+  .up-ar {
+    display: none;
+  }
 }
 
 /* For screens between 768px and 992px (e.g. small laptops) */
@@ -6678,6 +6684,9 @@ button:hover {
     font-family: "Montserrat";
     font-weight: 600;
     color: white;
+  }
+  .up-ar {
+    display: none;
   }
 }
 
