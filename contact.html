@@ -51,6 +51,12 @@
 
     <!-- Core Style Css -->
     <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Flatpickr -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css"
+    />
   </head>
 
   <body>
@@ -62,7 +68,7 @@
 
     <!-- ==================== Start progress-scroll-button ==================== -->
 
-    <div class="progress-wrap up-ar cursor-pointer">
+    <div class="progress-wrap cursor-pointer">
       <svg
         class="progress-circle svg-content"
         width="100%"
@@ -115,17 +121,16 @@
           <div class="col-lg-9 col-md-11 static">
             <div class="capt mt-50">
               <div class="parlx">
-                <h2 class="custom-font">
+                <h2
+                  class="custom-font-wrong"
+                  style="font-weight: 300; font-size: 50px; text-shadow: none"
+                >
                   <span>Let's</span>Talk About Your project.
                 </h2>
                 <p>
                   Feel free to ask me any question or let’s talk about our
                   future collaboration.
                 </p>
-              </div>
-
-              <div class="bactxt custom-font valign">
-                <span class="full-width">Contact</span>
               </div>
             </div>
           </div>
@@ -164,20 +169,7 @@
                     placeholder="Email"
                     required
                   />
-                  <div class="two-col">
-                    <input
-                      type="text"
-                      name="First_Name"
-                      placeholder="First Name"
-                      required
-                    />
-                    <input
-                      type="text"
-                      name="Last_name"
-                      placeholder="Last Name"
-                      required
-                    />
-                  </div>
+                  <input type="text" name="Name" placeholder="Name" required />
 
                   <div
                     style="
@@ -285,22 +277,12 @@
                     </h3>
                     <input type="text" name="Preferred_colors" />
                   </div>
-                  <div class="two-col">
-                    <div class="question">
-                      <h2>
-                        Are there any restrictions to consider when designing
-                        the new logo?
-                      </h2>
-                      <input type="text" name="Restrictions" />
-                    </div>
-
-                    <div class="question">
-                      <h2>
-                        Looking at your rivals branding, what logos do you think
-                        work, and why?
-                      </h2>
-                      <input type="text" name="Rivals_branding" />
-                    </div>
+                  <div class="question">
+                    <h2>
+                      Are there any restrictions to consider when designing
+                      the new logo?
+                    </h2>
+                    <input type="text" name="Restrictions" />
                   </div>
 
                   <div class="question">
@@ -334,9 +316,10 @@
                   <div class="question">
                     <h2>Specific deadline?</h2>
                     <input
-                      type="date"
+                      type="text"
+                      id="myDate"
+                      placeholder="Select Date"
                       name="Specific_deadline?"
-                      style="border: none"
                     />
                   </div>
 
@@ -464,5 +447,11 @@
 
     <!-- custom scripts -->
     <script src="js/scripts.js"></script>
+
+    <!-- Flatpickr -->
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+    <script>
+      flatpickr("#myDate", {});
+    </script>
   </body>
 </html>

@@ -5547,12 +5547,7 @@ header.simpl .caption .btn-curve {
   line-height: 1.2;
   text-transform: uppercase;
   margin-bottom: 20px;
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: #fff;
-  color: transparent;
-}
-.call-action .content h2 span {
-  color: transparent;
+  color: #fff;
 }
 .call-action .content h2 b span {
   color: #75dab4;
@@ -5705,13 +5700,13 @@ header.simpl .caption .btn-curve {
   color: #fff;
   background: transparent;
   border: 0;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  border-bottom: 1px solid #75dab390;
 }
 
 .contact .form textarea {
   padding: 15px;
   min-height: 140px;
-  border: 1px solid rgba(255, 255, 255, 0.3);
+  border: 1px solid #75dab390;
   margin-top: 30px;
 }
 
@@ -6598,6 +6593,10 @@ button:hover {
   font-family: "Montserrat";
   font-weight: 600;
   color: white;
+}
+
+.icon1 {
+  color: #75dab4;
 }
 
 /* For screens smaller than 576px (e.g. smartphones) */
