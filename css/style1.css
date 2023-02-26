@@ -2601,9 +2601,6 @@ header.simpl .caption .btn-curve {
   text-transform: uppercase;
   letter-spacing: 4px;
 }
-.freelancer .cont .social-icon {
-  margin-top: 40px;
-}
 .freelancer .cont .social-icon a {
   width: 55px;
   height: 55px;
@@ -6568,14 +6565,19 @@ button:hover {
 .name {
   font-family: "Montserrat";
   font-size: 60px;
-  font-weight: 600;
-  margin-bottom: 20px;
+  font-weight: 900;
+  -webkit-text-stroke: 2px #fff;
+  line-height: 1.2;
+  margin-bottom: 10px;
+  letter-spacing: 3px;
 }
 
 .looking {
   font-size: 22px;
   font-weight: 600;
   color: white;
+  text-transform: uppercase;
+  line-height: 1.1;
 }
 
 .lets a {
@@ -6605,11 +6607,11 @@ button:hover {
   }
   .name {
     font-size: 30px;
+    -webkit-text-stroke: 1px #fff;
   }
   .looking {
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 400;
-    color: white;
   }
   .lets a span {
     font-weight: 500;
@@ -6636,11 +6638,11 @@ button:hover {
   }
   .name {
     font-size: 40px;
+    -webkit-text-stroke: 1px #fff;
   }
   .looking {
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 500;
-    color: white;
   }
   .lets a span {
     font-weight: 500;
@@ -6666,9 +6668,8 @@ button:hover {
     font-size: 50px;
   }
   .looking {
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 500;
-    color: white;
   }
   .lets a span {
     font-weight: 500;
@@ -6697,9 +6698,8 @@ button:hover {
     font-size: 50px;
   }
   .looking {
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 500;
-    color: white;
   }
   .lets a span {
     font-weight: 500;
@@ -6713,9 +6713,6 @@ button:hover {
     font-family: "Montserrat";
     font-weight: 600;
     color: white;
-  }
-  .name br {
-    display: none;
   }
 }
 
@@ -6728,9 +6725,8 @@ button:hover {
     font-size: 60px;
   }
   .looking {
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 500;
-    color: white;
   }
   .lets a span {
     font-weight: 500;
@@ -6744,8 +6740,5 @@ button:hover {
     font-family: "Montserrat";
     font-weight: 600;
     color: white;
-  }
-  .name br {
-    display: none;
   }
 }
