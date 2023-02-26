@@ -1064,7 +1064,10 @@
       const header = document.querySelector(".freelancer");
 
       function setMobileBackground() {
-        if (window.innerWidth <= 768) {
+        if (
+          !navigator.userAgent.match(/(iPod|iPhone|iPad)/) &&
+          window.innerWidth <= 770
+        ) {
           header.setAttribute("data-background", "./img/hero-mobile.png");
         } else {
           header.setAttribute("data-background", "./img/hero3.png");
