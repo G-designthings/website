@@ -1060,7 +1060,11 @@
     </script>
 
     <script>
-      if (navigator.userAgent.indexOf("Safari") == -1) {
+      // Check if the user's web browser is Safari
+      if (navigator.userAgent.indexOf("Safari") !== -1) {
+        // If the browser is Safari, do nothing
+      } else {
+        // If the browser is not Safari, add the parallaxie class to the header element
         var header = document.querySelector(
           "header.freelancer.sub-bg.valign.bg-img"
         );
