@@ -5552,7 +5552,6 @@ header.simpl .caption .btn-curve {
 .call-action .content h2 b span {
   color: #75dab4;
   font-weight: 900;
-  -webkit-text-stroke-width: 0;
 }
 
 .call-action .content p {
