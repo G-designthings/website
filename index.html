@@ -145,7 +145,7 @@
     <!-- ==================== Start Slider ==================== -->
 
     <header
-      class="freelancer sub-bg valign bg-img parallaxie"
+      class="freelancer sub-bg valign bg-img"
       data-background="./img/hero3.png"
     >
       <div class="container">
@@ -1060,15 +1060,10 @@
     </script>
 
     <script>
-      // Check if the user's browser is Safari
-      var isSafari = /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
-
-      // Find the <header> element
-      var header = document.querySelector("header");
-
-      // If the user's browser is Safari, remove the "parallaxie" class from the <header> element
-      if (isSafari) {
-        header.classList.remove("parallaxie");
+      var isSafari = navigator.userAgent.indexOf('Safari') > -1 && navigator.userAgent.indexOf('Chrome') === -1;
+      if (!isSafari) {
+        var header = document.querySelector('header.freelancer.sub-bg.valign.bg-img');
+        header.classList.add('parallaxie');
       }
     </script>
 
