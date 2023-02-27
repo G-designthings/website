@@ -6601,9 +6601,19 @@ button:hover {
 .icon1 {
   color: #75dab4;
 }
+.mobile-screen{
+  display: none;
+  flex-direction: column;
+}
 
 /* For screens smaller than 576px (e.g. smartphones) */
 @media (max-width: 575.98px) {
+  .mobile-screen{
+    display: flex;
+  }
+  .desktop-screen{
+    display: none;
+  }
   .mouse-cursor {
     display: none;
   }
