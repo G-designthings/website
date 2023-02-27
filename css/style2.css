@@ -2601,6 +2601,7 @@ header.simpl .caption .btn-curve {
   text-transform: uppercase;
   letter-spacing: 4px;
 }
+
 .freelancer .cont .social-icon a {
   width: 55px;
   height: 55px;
@@ -6606,6 +6607,21 @@ button:hover {
   flex-direction: column;
 }
 
+.custom-width {
+  width: 20px;
+  height: 20px;
+}
+
+.freelancer .mobile-screen .cont .social-icon a {
+  width: 25px;
+  height: 25px;
+  line-height: 25px;
+  text-align: center;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.05);
+  margin-right: 5px;
+}
+
 /* For screens smaller than 576px (e.g. smartphones) */
 @media (max-width: 575.98px) {
   .mobile-screen{
@@ -6628,7 +6644,7 @@ button:hover {
   }
   .lets a span {
     font-weight: 500;
-    font-size: 16px;
+    font-size: 20px;
   }
   .lets a {
     margin-bottom: 0;
