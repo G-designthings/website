@@ -1060,10 +1060,14 @@
     </script>
 
     <script>
-      var isSafari = /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
+      // Get the header element
+      var header = document.querySelector('header.freelancer.sub-bg.valign.bg-img.parallaxie');
 
-      if (isSafari) {
-        var header = document.querySelector('header.freelancer.sub-bg.valign.bg-img.parallaxie');
+      // Check if the browser is on an iPhone
+      var isiPhone = /iPhone/i.test(navigator.userAgent);
+
+      // If the browser is on an iPhone, remove the "parallaxie" class from the header element
+      if (isiPhone) {
         header.classList.remove('parallaxie');
       }
     </script>
