@@ -6632,8 +6632,6 @@ button:hover {
   }
   .name {
     font-size: 30px;
-    text-shadow: -0.4px -0.4px 0 #fff, 0.4px -0.4px 0 #fff, -0.4px 0.4px 0 #fff,
-      0.4px 0.4px 0 #fff;
   }
   .looking {
     font-size: 20px;
@@ -6664,8 +6662,6 @@ button:hover {
   }
   .name {
     font-size: 40px;
-    text-shadow: -0.4px -0.4px 0 #fff, 0.4px -0.4px 0 #fff, -0.4px 0.4px 0 #fff,
-      0.4px 0.4px 0 #fff;
   }
   .looking {
     font-size: 24px;
