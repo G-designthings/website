@@ -65,9 +65,6 @@
   list-style: none;
   scroll-behavior: smooth;
 }
-.no-stroke {
-  stroke: none;
-}
 
 body {
   color: #fff;
