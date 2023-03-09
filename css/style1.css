@@ -6570,6 +6570,9 @@ button:hover {
   line-height: 1.2;
   margin-bottom: 10px;
   letter-spacing: 3px;
+  text-shadow: none;
+}
+
 }
 
 .looking {
