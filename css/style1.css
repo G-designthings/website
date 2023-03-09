@@ -6472,6 +6472,12 @@ header.simpl .caption .btn-curve {
     font-size: 20px;
     font-weight: 600;
   }
+  .next-prog .box .caption h1 .stroke,
+  .next-prog .box .copy-cap h1 .stroke {
+    display: inline-block;
+    color: #fff;
+    -webkit-text-stroke: 0px #fff;
+  }
 }
 
 /* ====================== [ End Responsive ] ====================== */
