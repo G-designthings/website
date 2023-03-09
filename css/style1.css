@@ -1388,7 +1388,7 @@ body {
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 4px;
-  text-shadow: 0 8px rgba(255, 255, 255, 0.05);
+  text-shadow: none"
 }
 .sec-head .tbg {
   position: absolute;
