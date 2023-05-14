@@ -1164,7 +1164,7 @@ body {
   margin-top: -40px;
   width: 80px;
   height: 80px;
-  background-color: #75dab4;
+  background-color: #e1f621;
   opacity: 0.3;
 }
 
@@ -1173,7 +1173,7 @@ body {
   margin-top: -15px;
   width: 40px;
   height: 40px;
-  border: 1px solid #75dab4;
+  border: 1px solid #e1f621;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   z-index: 10000000;
