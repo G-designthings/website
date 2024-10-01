@@ -48,14 +48,10 @@
 ---------------------------------------------------------------- */
 /* ====================== [ Start Typography  ] ====================== */
 
-/* Import Montserrat font from Google Fonts */
-@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+/* Import Poppins font from Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
 
-/* Use Montserrat font for body text */
-.mont-font {
-  font-family: "Montserrat", sans-serif;
-}
-
+/* Use Poppins font for body text */
 * {
   margin: 0;
   padding: 0;
@@ -72,18 +68,22 @@ body {
   line-height: 1.5;
   font-weight: 400;
   overflow-x: hidden !important;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
+
 body.dark2 {
   background: #1e2128;
 }
+
 body.dark2 .main-content {
   background: #1e2128;
 }
+
 body.dark2 .sub-bg,
 body.dark2 .footer-half:after {
   background: #21242b;
 }
+
 body.dark2 .nav-scroll,
 body.dark2 .footer-half .copyrights {
   background: #252830;
@@ -110,37 +110,32 @@ a:hover {
 
 h1 {
   font-size: 55px;
+  font-family: "Poppins", sans-serif;
 }
 
 h2 {
   font-size: 40px;
+  font-family: "Poppins", sans-serif;
 }
 
 h3 {
   font-size: 35px;
+  font-family: "Poppins", sans-serif;
 }
 
 h4 {
   font-size: 30px;
+  font-family: "Poppins", sans-serif;
 }
 
 h5 {
   font-size: 25px;
+  font-family: "Poppins", sans-serif;
 }
 
 h6 {
   font-size: 18px;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin: 0;
-  line-height: 1.4;
-  font-weight: 600;
+  font-family: "Poppins", sans-serif;
 }
 
 p {
@@ -149,12 +144,15 @@ p {
   font-weight: 300;
   line-height: 2;
   margin: 0;
+  font-family: "Poppins", sans-serif;
 }
 
+/* Additional custom styles */
 a,
 span {
   display: inline-block;
 }
+
 a:hover,
 span:hover {
   text-decoration: none;
@@ -164,12 +162,6 @@ span:hover {
   max-width: 1200px;
 }
 
-.custom-font {
-  font-family: "Barlow Condensed", sans-serif;
-}
-
-/* ====================== [ End Typography  ] ====================== */
-/* ====================== [ Start Helper Classes  ] ====================== */
 .o-hidden {
   overflow: hidden;
 }
@@ -202,25 +194,13 @@ span:hover {
 .bg-gray {
   background-color: #f8f4f3;
 }
-.bg-gray .primery-shadow {
-  -webkit-box-shadow: 0px 4px 30px -4px rgba(0, 0, 0, 0.2);
-  box-shadow: 0px 4px 30px -4px rgba(0, 0, 0, 0.2);
-}
 
 .bg-dark {
   background-color: #141414 !important;
 }
-.bg-dark .primery-shadow {
-  -webkit-box-shadow: 0px 4px 40px -4px rgba(255, 255, 255, 0.2);
-  box-shadow: 0px 4px 40px -4px rgba(255, 255, 255, 0.2);
-}
 
 .bg-color {
   background-color: #e1f621 !important;
-}
-.bg-color .primery-shadow {
-  -webkit-box-shadow: 0px 4px 40px -4px rgba(255, 255, 255, 0.2);
-  box-shadow: 0px 4px 40px -4px rgba(255, 255, 255, 0.2);
 }
 
 .sub-bg {
@@ -290,16 +270,11 @@ span:hover {
 }
 
 .valign {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
 }
 
 .primery-shadow {
-  -webkit-box-shadow: 0px 8px 30px -4px rgba(0, 0, 0, 0.1);
   box-shadow: 0px 8px 30px -4px rgba(0, 0, 0, 0.1);
 }
 
@@ -307,6 +282,7 @@ span:hover {
   padding-right: 5%;
   padding-left: 5%;
 }
+
 
 /*-------------------------------------------------------
 					 text color
