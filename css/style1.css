@@ -1006,7 +1006,7 @@ span:hover {
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   color: #e1f621;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
   z-index: 9999;
 }
 .loading-text.isdone {
