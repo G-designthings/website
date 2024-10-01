@@ -66,13 +66,13 @@ body {
   color: #fff;
   background: #FDFFFF;
   line-height: 1.5;
-  font-weight: 400;
+  font-weight: 600;
   overflow-x: hidden !important;
   font-family: "Poppins", sans-serif;
 }
 
 body.dark2 {
-  background: #1e2128;
+  background: #75DAB4;
 }
 
 body.dark2 .main-content {
