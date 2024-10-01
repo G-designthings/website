@@ -3217,7 +3217,7 @@ header.simpl .caption .btn-curve {
 /* ====================== [ end showcase ] ====================== */
 /* ====================== [ Start Intro ] ====================== */
 .about .content .co-tit {
-  color: #75dab4;
+  color: #BAFF29;
   font-weight: 400;
   margin-bottom: 30px;
 }
@@ -3305,7 +3305,7 @@ header.simpl .caption .btn-curve {
   margin: 0 10px;
 }
 .about .ftbox ul li .icon {
-  color: #75dab4;
+  color: #BAFF29;
   font-size: 30px;
   margin-bottom: 20px;
 }
@@ -3358,7 +3358,7 @@ header.simpl .caption .btn-curve {
   text-align: center;
   border-radius: 50%;
   background: #fff;
-  color: #75dab4;
+  color: #BAFF29;
   -webkit-box-shadow: 0px 10px 50px rgba(52, 60, 70, 0.05);
   box-shadow: 0px 10px 50px rgba(52, 60, 70, 0.05);
 }
@@ -3388,7 +3388,7 @@ header.simpl .caption .btn-curve {
 .intro-section .htit span {
   font-size: 17px;
   font-weight: 300;
-  color: #75dab4;
+  color: #BAFF29;
   margin-right: 5px;
 }
 
@@ -3520,7 +3520,7 @@ header.simpl .caption .btn-curve {
   z-index: -1;
 }
 .services .item-box .icon {
-  color: #75dab4;
+  color: #BAFF29;
   font-size: 40px;
   margin-bottom: 30px;
 }
@@ -3569,7 +3569,7 @@ header.simpl .caption .btn-curve {
   left: 0;
   width: 100%;
   height: 100%;
-  background: #75dab4;
+  background: #BAFF29;
   -webkit-transition: all 0.4s;
   -o-transition: all 0.4s;
   transition: all 0.4s;
@@ -3581,7 +3581,7 @@ header.simpl .caption .btn-curve {
 }
 .services .mas-item .icon {
   font-size: 45px;
-  color: #75dab4;
+  color: #BAFF29;
   margin-bottom: 30px;
 }
 .services .mas-item h6 {
@@ -3614,7 +3614,7 @@ header.simpl .caption .btn-curve {
   top: -60px;
 }
 .services .step-item.xcolor {
-  background: #75dab4;
+  background: #BAFF29;
   color: #11141b;
 }
 .services .step-item.xcolor .icon {
@@ -3624,7 +3624,7 @@ header.simpl .caption .btn-curve {
   color: #333;
 }
 .services .step-item .icon {
-  color: #75dab4;
+  color: #BAFF29;
   font-size: 40px;
   margin-bottom: 30px;
 }
@@ -3648,7 +3648,7 @@ header.simpl .caption .btn-curve {
   background: #21242b;
 }
 .services .item .icon {
-  color: #75dab4;
+  color: #BAFF29;
   font-size: 40px;
   margin-bottom: 40px;
 }
@@ -3666,7 +3666,7 @@ header.simpl .caption .btn-curve {
 }
 .sipm-feat .item .icon {
   font-size: 30px;
-  color: #75dab4;
+  color: #BAFF29;
 }
 .sipm-feat .item .text {
   padding-left: 20px;
@@ -3738,13 +3738,13 @@ header.simpl .caption .btn-curve {
   margin-bottom: 5px;
 }
 .min-area .content ul.feat li h6 span {
-  color: #75dab4;
+  color: #BAFF29;
   width: 30px;
   height: 30px;
   line-height: 30px;
   text-align: center;
   font-size: 13px;
-  border: 1px solid #75dab4;
+  border: 1px solid #BAFF29;
   border-radius: 50%;
   margin-right: 10px;
 }
