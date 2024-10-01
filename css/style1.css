@@ -2091,7 +2091,7 @@ body {
   transform: translateY(0);
 }
 .slider .parallax-slider .caption .thin {
-  color: #75dab4;
+  color: #BAFF29;
   font-size: 30px;
   font-weight: 300;
   text-transform: uppercase;
@@ -2109,7 +2109,7 @@ body {
   transition-delay: 0.8s;
 }
 .slider .parallax-slider .caption .thin span {
-  color: #75dab4;
+  color: #BAFF29;
 }
 .slider .parallax-slider .caption h1 {
   font-size: 65px;
@@ -2438,7 +2438,7 @@ header.simpl .caption .btn-curve {
   position: absolute;
   top: 0;
   left: 0;
-  background: #75dab4;
+  background: #BAFF29;
 }
 .cta__slider-item .caption .top-corn:after,
 .cta__slider-item .caption .bottom-corn:after {
@@ -2471,7 +2471,7 @@ header.simpl .caption .btn-curve {
   transition: opacity 0.5s, visibility 0.5s;
 }
 .cta__slider-item .caption .thin {
-  color: #75dab4;
+  color: #BAFF29;
   font-size: 20px;
   font-weight: 300;
   text-transform: uppercase;
@@ -2550,7 +2550,7 @@ header.simpl .caption .btn-curve {
   margin-top: 50px;
 }
 .freelancer .cont h6 {
-  color: #75dab4;
+  color: #BAFF29;
   font-size: 14px;
   font-weight: 300;
   text-transform: uppercase;
@@ -2558,7 +2558,7 @@ header.simpl .caption .btn-curve {
   margin-bottom: 5px;
 }
 .freelancer .cont h5 {
-  color: #75dab4;
+  color: #BAFF29;
   font-size: 20px;
   font-weight: 300;
   text-transform: uppercase;
@@ -2569,7 +2569,7 @@ header.simpl .caption .btn-curve {
 .freelancer .cont h1 {
   font-size: 100px;
   font-weight: 700;
-  font-family: "Montserrat", serif;
+  font-family: "Poppins", serif;
   margin-bottom: 5px;
 }
 .freelancer .cont h4 {
@@ -2772,7 +2772,7 @@ header.simpl .caption .btn-curve {
   font-size: 17px;
 }
 .pages-header .cont .path .active {
-  color: #75dab4;
+  color: #BAFF29;
 }
 .pages-header .cont .path span {
   margin: 0 20px;
