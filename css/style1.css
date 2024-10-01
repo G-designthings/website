@@ -3891,13 +3891,13 @@ header.simpl .caption .btn-curve {
   position: relative;
 }
 .portfolio .filtering span.active {
-  color: #75dab4;
+  color: #BAFF29;
 }
 .portfolio .filtering span:after {
   content: "";
   width: 7px;
   height: 7px;
-  background: #75dab4;
+  background: #BAFF29;
   border-radius: 50%;
   position: absolute;
   right: -24px;
@@ -3922,13 +3922,13 @@ header.simpl .caption .btn-curve {
   position: relative;
 }
 .portfolio .filtering.smplx span.active {
-  color: #75dab4;
+  color: #BAFF29;
 }
 .portfolio .filtering.smplx span:after {
   content: "";
   width: 7px;
   height: 7px;
-  background: #75dab4;
+  background: #BAFF29;
   border-radius: 50%;
   position: absolute;
   right: -24px;
@@ -3993,7 +3993,7 @@ header.simpl .caption .btn-curve {
   text-transform: uppercase;
   letter-spacing: 2px;
   font-size: 13px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 .portfolio .gallery .items .item-img .cont span a {
   margin: 0 10px 0 0;
@@ -4012,7 +4012,7 @@ header.simpl .caption .btn-curve {
   letter-spacing: 2px;
   font-weight: 400;
   font-size: 13px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 .portfolio .gallery .items .cont span a {
   margin: 0 5px;
@@ -4209,7 +4209,7 @@ header.simpl .caption .btn-curve {
   position: relative;
 }
 .work-carousel .content .cont h6 {
-  color: #75dab4;
+  color: #BAFF29;
   font-size: 12px;
   font-weight: 500;
   text-transform: uppercase;
@@ -4379,7 +4379,7 @@ header.simpl .caption .btn-curve {
   position: absolute;
   content: "";
   width: 75px;
-  border-top: 2px dashed #75dab4;
+  border-top: 2px dashed #BAFF29;
   top: 75px;
   right: -35px;
 }
@@ -4496,7 +4496,7 @@ header.simpl .caption .btn-curve {
   width: 0;
   top: 0;
   left: 0;
-  background-color: #75dab4;
+  background-color: #BAFF29;
   -webkit-transition: all 1.5s;
   -o-transition: all 1.5s;
   transition: all 1.5s;
