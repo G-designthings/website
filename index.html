@@ -47,6 +47,30 @@
 
   <!-- Core Style Css -->
   <link rel="stylesheet" href="css/style1.css" />
+
+  <style>
+    /* Hide mobile version on desktop */
+    @media (min-width: 992px) {
+      .mobile-screen {
+        display: none;
+      }
+    }
+
+    /* Hide desktop version on mobile */
+    @media (max-width: 991px) {
+      .desktop-screen {
+        display: none;
+      }
+    }
+
+    .cont {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      height: 100vh;
+      text-align: center;
+    }
+  </style>
 </head>
 
 <body>
@@ -145,25 +169,22 @@
     <div class="row">
       <div class="col-lg-12">
         <!-- Desktop version -->
-        <div class="cont cner desktop-screen">
-          <div style="font-size: 15px; color: #FDFFFF;"></div> <!-- white color -->
-
-          <!-- Title with split colors and font weight -->
-          <div class="name" style="font-size: 125px; letter-spacing: -1px; line-height: 1em; margin-bottom: 20px;">
-            <span style="color: white; font-weight: 600;">CRAFTING TIMELESS </span>
-            <span style="color: #BAFF29;">BRANDS®</span>
+        <div class="cont cner desktop-screen" style="text-align: left; height: 100vh;">
+          <div class="name" style="font-size: 72px; letter-spacing: -1px; color: #BAFF29; line-height: 1em; margin-bottom: 25px;">
+            CRAFTING <br />
+            <span style="color: #BAFF29;">TIMELESS BRANDS®</span>
           </div>
 
-          <div style="font-size: 18px; color: white; text-align: left;">
-            Looking for out of the box Logo and Brand Identity? <br />
+          <div style="font-size: 18px; color: white;">
+            Looking for out of the box Logo and Brand Identity?
           </div>
 
           <div class="lets" style="text-align: left;">
-            <a href="#contact" class="btn-curve btn-lit" style="border-radius: 100px;">
-              <span>Get started </span>
+            <a href="#contact" class="btn-curve btn-lit" style="border-radius: 800px;">
+              <span>Get started today</span>
             </a>
           </div>
-          
+
           <br />
           <div class="social-icon" style="text-align: left;">
             <a target="_blank" rel="noopener" href="https://www.linkedin.com/in/goran-jugovic-261401a3/" class="icon">
@@ -182,7 +203,7 @@
         </div>
 
         <!-- Mobile version, with vertical alignment -->
-        <div class="cont cner mobile-screen" style="display: flex; flex-direction: column; justify-content: center; height: 100vh; text-align: center;">
+        <div class="cont cner mobile-screen">
           <div class="name" style="font-size: 72px; letter-spacing: -1px; color: #BAFF29; line-height: 1em; margin-bottom: 25px;">
             CRAFTING <br />
             <span style="color: #BAFF29;">TIMELESS BRANDS®</span>
@@ -217,6 +238,25 @@
       </div>
     </div>
   </div>
+
+  <section class="about" id="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2>My Mission</h2>
+          <p>
+            My mission is to help brands stand out and make an impact through compelling design solutions.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Include scripts -->
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
 
   <section class="about" id="about">
     <div class="container">
