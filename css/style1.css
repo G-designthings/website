@@ -4293,7 +4293,7 @@ header.simpl .caption .btn-curve {
   transition: all 0.4s;
 }
 .work-carousel .noraidus .cont h6 {
-  color: #75dab4;
+  color: #BAFF29;
   font-size: 12px;
   font-weight: 500;
   text-transform: uppercase;
@@ -4508,7 +4508,7 @@ header.simpl .caption .btn-curve {
   top: -45px;
   padding: 7px 15px;
   border-radius: 5px;
-  background: #75dab4;
+  background: #BAFF29;
   color: #111;
   font-size: 12px;
   font-weight: 600;
@@ -4519,7 +4519,7 @@ header.simpl .caption .btn-curve {
   height: 0;
   border-left: 5px solid transparent;
   border-right: 5px solid transparent;
-  border-top: 8px solid #75dab4;
+  border-top: 8px solid #BAFF29;
   position: absolute;
   right: 15px;
   bottom: 14px;
@@ -4544,7 +4544,7 @@ header.simpl .caption .btn-curve {
   top: 50%;
   width: 5px;
   height: 1px;
-  background: #75dab4;
+  background: #BAFF29;
 }
 
 /* ====================== [ Start tabs & list ] ====================== */
@@ -4606,7 +4606,7 @@ header.simpl .caption .btn-curve {
 .team .item .info .social a {
   font-size: 13px;
   margin: 0 8px;
-  color: #75dab4;
+  color: #BAFF29;
 }
 .team .item:hover .info h5,
 .team .item:hover .info span {
@@ -4632,7 +4632,7 @@ header.simpl .caption .btn-curve {
   bottom: -40px;
 }
 .team .slick-dots li.slick-active button {
-  background: #75dab4;
+  background: #BAFF29;
 }
 .team .slick-dots li button {
   width: 10px;
@@ -4649,7 +4649,7 @@ header.simpl .caption .btn-curve {
   top: 4px;
   left: 4px;
   line-height: 1;
-  background: #75dab4;
+  background: #BAFF29;
   opacity: 1;
 }
 
@@ -4741,7 +4741,7 @@ header.simpl .caption .btn-curve {
 }
 .testimonials .arrows .next:hover,
 .testimonials .arrows .prev:hover {
-  border-color: #75dab4;
+  border-color: #BAFF29;
 }
 
 .testimonials .arrows .prev {
@@ -4906,7 +4906,7 @@ header.simpl .caption .btn-curve {
 }
 .block-sec .vid-area .vid-icon .vid span {
   font-size: 30px;
-  color: #75dab4;
+  color: #BAFF29;
 }
 
 .block-sec .vid-area .cont {
@@ -4924,7 +4924,7 @@ header.simpl .caption .btn-curve {
 
 .block-sec .testim-box {
   position: relative;
-  background: #75dab4;
+  background: #BAFF29;
   padding: 80px 40px;
   margin-bottom: -120px;
 }
@@ -5089,7 +5089,7 @@ header.simpl .caption .btn-curve {
   display: flex;
 }
 .blog-curs .item .cont .info .author {
-  color: #75dab4;
+  color: #BAFF29;
 }
 .blog-curs .item .cont .info .date {
   margin-left: auto;
@@ -5154,7 +5154,7 @@ header.simpl .caption .btn-curve {
   margin-right: 10px;
 }
 .blog-grid .item .cont .info .tag {
-  color: #75dab4;
+  color: #BAFF29;
   margin-left: 10px;
 }
 .blog-grid .item .cont h6 {
@@ -5177,7 +5177,7 @@ header.simpl .caption .btn-curve {
   top: -40px;
   right: 15px;
   padding: 5px 15px;
-  background: #75dab4;
+  background: #BAFF29;
   color: #222;
   font-size: 12px;
   font-weight: 500;
@@ -5219,7 +5219,7 @@ header.simpl .caption .btn-curve {
 .blog-pg .posts .item .content .tags a {
   font-size: 12px;
   font-weight: 500;
-  color: #75dab4;
+  color: #BAFF29;
   padding-right: 20px;
   position: relative;
 }
@@ -5262,8 +5262,8 @@ header.simpl .caption .btn-curve {
   font-size: 18px;
 }
 .blog-pg .posts .pagination span.active a {
-  border-color: #75dab4;
-  color: #75dab4;
+  border-color: #BAFF29;
+  color: #BAFF29;
 }
 
 .blog-pg.single .post .main-img .simpleParallax {
@@ -5416,7 +5416,7 @@ header.simpl .caption .btn-curve {
 }
 .blog-pg.single .comments-area .item .info h6 span {
   display: block;
-  color: #75dab4;
+  color: #BAFF29;
   font-size: 12px;
   font-weight: 400;
   margin-top: 5px;
@@ -5504,7 +5504,7 @@ header.simpl .caption .btn-curve {
 /* ====================== [ End Blog ] ====================== */
 /* ====================== [ Start Call To Action  ] ====================== */
 .call-action .content h6 {
-  color: #75dab4;
+  color: #BAFF29;
   font-size: 13px;
   font-weight: 400;
   text-transform: uppercase;
@@ -5512,7 +5512,7 @@ header.simpl .caption .btn-curve {
   margin-bottom: 10px;
 }
 .call-action .content h6 span {
-  color: #75dab4;
+  color: #BAFF29;
 }
 
 .call-action .content h2 {
@@ -5524,7 +5524,7 @@ header.simpl .caption .btn-curve {
   color: #fff;
 }
 .call-action .content h2 b span {
-  color: #75dab4;
+  color: #BAFF29;
   font-weight: 900;
 }
 
@@ -5658,7 +5658,7 @@ header.simpl .caption .btn-curve {
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   background: transparent;
   color: #fff;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .contact-sec .form button {
@@ -5673,13 +5673,13 @@ header.simpl .caption .btn-curve {
   color: #fff;
   background: transparent;
   border: 0;
-  border-bottom: 1px solid #75dab390;
+  border-bottom: 1px solid #BAFF29;
 }
 
 .contact .form textarea {
   padding: 15px;
   min-height: 140px;
-  border: 1px solid #75dab390;
+  border: 1px solid #BAFF29;
   margin-top: 30px;
 }
 
@@ -5786,7 +5786,7 @@ header.simpl .caption .btn-curve {
 .see-more {
   justify-content: center;
   text-align: center;
-  color: #75dab4;
+  color: #BAFF29;
   font-size: 16px;
   font-weight: 400;
   text-transform: uppercase;
@@ -5861,7 +5861,7 @@ header.simpl .caption .btn-curve {
   color: #999;
 }
 .footer-half .copyrights p a {
-  color: #75dab4;
+  color: #BAFF29;
 }
 
 /* ====================== [ End Footer ] ====================== */
@@ -6000,7 +6000,7 @@ header.simpl .caption .btn-curve {
     padding: 0;
   }
   .navbar .navbar-nav .nav-link:hover {
-    color: #75dab4;
+    color: #BAFF29;
   }
   .slider .parallax-slider .caption.dig {
     text-align: center;
@@ -6576,7 +6576,7 @@ button:hover {
 }
 
 .icon1 {
-  color: #75dab4;
+  color: #BAFF29;
 }
 .mobile-screen {
   display: none;
