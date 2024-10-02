@@ -1,7 +1,7 @@
 <?php
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $to = "manda.offline@gmail.com";
+    $to = "g.designthings.service@gmail.com";
     $subject = "New form submission";
 
     // Sanitizacija podataka
