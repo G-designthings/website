@@ -1364,7 +1364,7 @@ body {
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 4px;
-  text-shadow: none"
+  text-shadow: none;
 }
 .sec-head .tbg {
   position: absolute;
@@ -1385,6 +1385,16 @@ body {
 .sec-head.tr-head .tbg {
   text-align: left;
 }
+
+/* ====================== [ Start Subscribe Button ] ====================== */
+.subscribe {
+  color: #BAFF29; /* Boja Subscribe */
+  font-weight: bold; /* Podebljani tekst */
+  font-size: 20px; /* Veličina fonta za Subscribe */
+  text-transform: uppercase; /* Pretvori u velika slova */
+  margin-top: 20px; /* Razmak iznad Subscribe */
+}
+/* ====================== [ End Subscribe Button ] ====================== */
 
 .sub-title {
   position: relative;
@@ -1454,6 +1464,7 @@ body {
 }
 
 /* ====================== [ End Heading ] ====================== */
+
 /* ====================== [  Start Button Style ] ====================== */
 .btn-curve {
   background: transparent;
