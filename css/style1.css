@@ -1386,16 +1386,6 @@ body {
   text-align: left;
 }
 
-/* ====================== [ Start Subscribe Button ] ====================== */
-.subscribe {
-  color: #BAFF29; /* Boja Subscribe */
-  font-weight: bold; /* Podebljani tekst */
-  font-size: 20px; /* Veličina fonta za Subscribe */
-  text-transform: uppercase; /* Pretvori u velika slova */
-  margin-top: 20px; /* Razmak iznad Subscribe */
-}
-/* ====================== [ End Subscribe Button ] ====================== */
-
 .sub-title {
   position: relative;
   padding-left: 20px;
