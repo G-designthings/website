@@ -178,125 +178,123 @@
           <p style="font-size: 105%; color: #BAFF29; margin-bottom: 20px;">
             Fill out the form below, and I’ll respond via email soon!
           </p>
-          <!-- ================ Form Start ================ -->
+        <!-- ================ Form Start ================ -->
 
+<form
+  enctype="multipart/form-data"
+  action="https://formspree.io/f/xyyawrge"
+  method="POST"
+  style="display: flex; flex-direction: column; row-gap: 30px"
+>
+  <input
+    type="hidden"
+    name="_next"
+    value="https://www.instagram.com/g.designthings/"
+  />
+  <input
+    type="email"
+    name="Email"
+    placeholder="Email"
+    required
+  />
+  <input type="text" name="Name" placeholder="Name" required />
 
-                <form
-                  enctype="multipart/form-data"
-                  action="https://formspree.io/f/xyyawrge"
-                  method="POST"
-                  style="display: flex; flex-direction: column; row-gap: 30px"
-                >
-                  <input
-                    type="hidden"
-                    name="_next"
-                    value="https://www.manda.website/"
-                  />
-                  <input
-                    type="email"
-                    name="Email"
-                    placeholder="Email"
-                    required
-                  />
-                  <input type="text" name="Name" placeholder="Name" required />
+  <div
+    style="
+      display: flex;
+      flex-direction: column;
+      column-gap: 30px;
+    "
+  >
+    <div class="question">
+      <h2>Logo should represent?</h2>
+      <h3>How would you describe your business?</h3>
+    </div>
 
-                  <div
-                    style="
-                      display: flex;
-                      flex-direction: column;
-                      column-gap: 30px;
-                    "
-                  >
-                    <div class="question">
-                      <h2>Logo should represent?</h2>
-                      <h3>How would you describe your business?</h3>
-                    </div>
+    <div
+      style="
+        display: flex;
+        flex-direction: row;
+        column-gap: 30px;
+      "
+    >
+      <div style="width: 50%">
+        <div class="radio-group">
+          <input
+            type="radio"
+            id="radio1"
+            name="Logo_should_represent"
+            value="Organized company"
+          />
+          <label for="radio1">Organized company</label>
+        </div>
+        <div class="radio-group">
+          <input
+            type="radio"
+            id="radio2"
+            name="Logo_should_represent"
+            value="Startup"
+          />
+          <label for="radio2">Startup</label>
+        </div>
+      </div>
+      <div style="width: 50%">
+        <div class="radio-group">
+          <input
+            type="radio"
+            id="radio3"
+            name="Logo_should_represent"
+            value="Freelance"
+          />
+          <label for="radio3">Freelance</label>
+        </div>
+        <div class="radio-group">
+          <input
+            type="radio"
+            id="radio4"
+            name="Logo_should_represent"
+            value="Organization"
+          />
+          <label for="radio4">Organization</label>
+        </div>
+      </div>
+    </div>
+  </div>
 
-                    <div
-                      style="
-                        display: flex;
-                        flex-direction: row;
-                        column-gap: 30px;
-                      "
-                    >
-                      <div style="width: 50%">
-                        <div class="radio-group">
-                          <input
-                            type="radio"
-                            id="radio1"
-                            name="Logo_should_represent"
-                            value="Organized company"
-                          />
-                          <label for="radio1">Organized company</label>
-                        </div>
-                        <div class="radio-group">
-                          <input
-                            type="radio"
-                            id="radio2"
-                            name="Logo_should_represent"
-                            value="Startup"
-                          />
-                          <label for="radio2">Startup</label>
-                        </div>
-                      </div>
-                      <div style="width: 50%">
-                        <div class="radio-group">
-                          <input
-                            type="radio"
-                            id="radio3"
-                            name="Logo_should_represent"
-                            value="Freelance"
-                          />
-                          <label for="radio3">Freelance</label>
-                        </div>
-                        <div class="radio-group">
-                          <input
-                            type="radio"
-                            id="radio4"
-                            name="Logo_should_represent"
-                            value="Organization"
-                          />
-                          <label for="radio4">Organization</label>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+  <div class="question">
+    <h2>Select your industry</h2>
+    <h3>
+      Which industry most closely aligns with your company?
+    </h3>
+    <input type="text" name="Select_your_industry" />
+  </div>
 
-                  <div class="question">
-                    <h2>Select your industry</h2>
-                    <h3>
-                      Which industry most closely aligns with your company?
-                    </h3>
-                    <input type="text" name="Select_your_industry" />
-                  </div>
+  <div class="question">
+    <h2>How big is your company?</h2>
+    <h3>Number of employees? Revenue?</h3>
+    <input type="text" name="How_big_is_your_company" />
+  </div>
 
-                  <div class="question">
-                    <h2>How big is your company?</h2>
-                    <h3>Number of employees? Revenue?</h3>
-                    <input type="text" name="How_big_is_your_company?" />
-                  </div>
+  <div class="question">
+    <h2>What name do you want in your logo?</h2>
+    <input type="text" name="Name_in_logo" />
+  </div>
 
-                  <div class="question">
-                    <h2>What name do you want in your logo?</h2>
-                    <input type="text" name="Name_in_logo?" />
-                  </div>
+  <div class="question">
+    <h2>Any other information or specifics?</h2>
+    <textarea name="Other_information" rows="4" style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 5px;"></textarea>
+  </div>
 
-    
-                 <div class="question">
-  <h2>Any other information or specifics?</h2>
-  <textarea name="Other_information" rows="4" style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 5px;"></textarea>
-</div>
+  <input
+    type="submit"
+    value="Let’s Get Started"
+    class="btn-curve btn-lit"
+    style="background-color: #BAFF29; color: white; border-radius: 25px; padding: 20px 40px; font-weight: normal; font-size: 35px;"
+  />
+</form>
 
+<!-- ==================== End Contact ==================== -->
 
-                  <input
-  type="submit"
-  value="Let’s Get Started"
-  class="btn-curve btn-lit"
-  style="background-color: #BAFF29; color: white; border-radius: 25px; padding: 20px 40px; font-weight: normal; font-size: 35px;"
-/>
-
-
-      <!-- ==================== End Contact ==================== -->
 
       <!-- ==================== Start Footer ==================== -->
 
