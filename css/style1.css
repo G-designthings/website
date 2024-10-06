@@ -6745,3 +6745,35 @@ button:hover {
     color: white;
   }
 }
+
+/* ==================== Custom Styles for Services Section ==================== */
+
+
+/* ==================== Custom Styles for Services Section ==================== */
+
+.service-item {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 1px solid transparent; /* Dodajte border kako bi se istakli */
+    border-radius: 10px; /* Blagi zaobljenici */
+    padding: 20px; /* Unutrašnji razmak */
+    background-color: rgba(255, 255, 255, 0.1); /* Polu-prozirna pozadina */
+}
+
+.service-item:hover {
+    transform: translateY(-5px); /* Blagi pokret nagore pri hoveru */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2); /* Senka pri hoveru */
+}
+
+.btn-curve {
+    background-color: #BAFF29; /* Boja dugmadi */
+    color: white; /* Boja teksta dugmadi */
+    border-radius: 30px; /* Zaobljenici */
+    padding: 10px 20px; /* Unutrašnji razmak */
+    text-decoration: none; /* Ukloni podvlačenje */
+    transition: background-color 0.3s ease; /* Glatka promena boje */
+}
+
+.btn-curve:hover {
+    background-color: #A1D823; /* Tamnija nijansa pri hoveru */
+}
+
