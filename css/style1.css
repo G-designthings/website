@@ -6777,3 +6777,14 @@ button:hover {
     background-color: #A1D823; /* Tamnija nijansa pri hoveru */
 }
 
+/* ==================== Custom Styles for Services Section ==================== */
+
+/* Dodaj stilove za footer */
+footer {
+    width: 100%; /* Postavlja širinu footera na 100% */
+    position: relative; /* Osigurava da se footer pravilno prikazuje u odnosu na ostale elemente */
+    background-color: #151921; /* Postavi boju pozadine po želji */
+    padding: 20px 0; /* Postavi padding za vizuelni razmak */
+    box-sizing: border-box; /* Osigurava da padding ne utiče na ukupnu širinu */
+}
+
