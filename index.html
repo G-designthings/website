@@ -12,7 +12,6 @@
   
   <!-- Open Graph (Social Media) -->
   <meta property="og:image" content="https://example.com/path-to-image/Port.jpg" />
-  <meta property="og:image" content="./img/Port.jpg" />
 
   <!-- Google Tag Manager -->
   <script>
@@ -41,9 +40,6 @@
   <!-- Minified Plugins and Styles -->
   <link rel="stylesheet" href="css/plugins.min.css" />
   <link rel="stylesheet" href="css/style1.min.css" />
-
-  <!-- Plugins -->
-  <link rel="stylesheet" href="css/plugins.css" />
 
   <!-- Core Style Css -->
   <link rel="stylesheet" href="css/style1.css" />
@@ -76,75 +72,70 @@
       <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
     </svg>
   </div>
+  <!-- ==================== End progress-scroll-button ==================== -->
 
-    <!-- ==================== End progress-scroll-button ==================== -->
+  <!-- ==================== Start cursor ==================== -->
+  <div class="mouse-cursor cursor-outer"></div>
+  <div class="mouse-cursor cursor-inner"></div>
+  <!-- ==================== End cursor ==================== -->
 
-    <!-- ==================== Start cursor ==================== -->
+  <!-- ==================== Start Navbar ==================== -->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <!-- Logo -->
+      <a class="logo" href="index.html#">
+        <img src="img/logo-light.png" alt="logo" loading="lazy" />
+      </a>
 
-    <div class="mouse-cursor cursor-outer"></div>
-    <div class="mouse-cursor cursor-inner"></div>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="icon-bar"><i class="fas fa-bars"></i></span>
+      </button>
 
-    <!-- ==================== End cursor ==================== -->
-
-    <!-- ==================== Start Navbar ==================== -->
-
-    <nav class="navbar navbar-expand-lg">
-      <div class="container">
-        <!-- Logo -->
-        <a class="logo" href="index.html#">
-          <img src="img/logo-light.png" alt="logo" />
-        </a>
-
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="icon-bar"><i class="fas fa-bars"></i></span>
-        </button>
-
-        <!-- navbar links -->
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ml-auto" style="align-items: center">
-            <li class="nav-item">
-              <a class="nav-link" href="#about">about</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#services">services</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#portfolio">portfolio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#testimonials">reviews</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#blogs">blogs</a>
-            </li>
-            <li>
-              <a
-                href="#contact"
-                class="btn-curve btn-lit wow"
-                data-wow-delay=".5s"
-                style="
-                  max-width: 100px;
-                  padding: 5px 10px;
-                  margin-left: 10px;
-                  text-align: center;
-                "
-                ><span>Contact</span></a
-              >
-            </li>
-          </ul>
-        </div>
+      <!-- navbar links -->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto" style="align-items: center">
+          <li class="nav-item">
+            <a class="nav-link" href="#about">about</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#services">services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#portfolio">portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#testimonials">reviews</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#blogs">blogs</a>
+          </li>
+          <li>
+            <a
+              href="#contact"
+              class="btn-curve btn-lit wow"
+              data-wow-delay=".5s"
+              style="
+                max-width: 100px;
+                padding: 5px 10px;
+                margin-left: 10px;
+                text-align: center;
+              "
+            ><span>Contact</span></a>
+          </li>
+        </ul>
       </div>
-    </nav>
+    </div>
+  </nav>
+  <!-- ==================== End Navbar ==================== -->
 
- <!-- ==================== End Navbar ==================== -->
 
 <!-- Mobilna verzija, sa vertikalnim poravnanjem -->
 <div class="cont cner mobile-screen" style="display: flex; flex-direction: column; justify-content: center; height: 100vh; text-align: center;">
