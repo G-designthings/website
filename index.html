@@ -20,7 +20,7 @@
       w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
       var f = d.getElementsByTagName(s)[0],
         j = d.createElement(s),
-        dl = l != "dataLayer" ? "&l=" + l : "";
+        dl = l !== "dataLayer" ? "&l=" + l : "";
       j.async = true;
       j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
       f.parentNode.insertBefore(j, f);
@@ -40,8 +40,7 @@
   <!-- Minified Plugins and Styles -->
   <link rel="stylesheet" href="css/plugins.min.css" />
   <link rel="stylesheet" href="css/style1.min.css" />
-
-  <!-- Core Style Css -->
+  <link rel="stylesheet" href="css/plugins.css" />
   <link rel="stylesheet" href="css/style1.css" />
 </head>
 
@@ -84,7 +83,7 @@
     <div class="container">
       <!-- Logo -->
       <a class="logo" href="index.html#">
-        <img src="img/logo-light.png" alt="logo" loading="lazy" />
+        <img src="img/logo-light.png" alt="logo" />
       </a>
 
       <button
@@ -122,12 +121,7 @@
               href="#contact"
               class="btn-curve btn-lit wow"
               data-wow-delay=".5s"
-              style="
-                max-width: 100px;
-                padding: 5px 10px;
-                margin-left: 10px;
-                text-align: center;
-              "
+              style="max-width: 100px; padding: 5px 10px; margin-left: 10px; text-align: center;"
             ><span>Contact</span></a>
           </li>
         </ul>
@@ -135,6 +129,7 @@
     </div>
   </nav>
   <!-- ==================== End Navbar ==================== -->
+
 
 
 <!-- Mobilna verzija, sa vertikalnim poravnanjem -->
