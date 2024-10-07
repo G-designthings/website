@@ -6765,7 +6765,7 @@ button:hover {
 }
 
 .btn-curve {
-    background-color: #151921; /* Boja dugmadi */
+    background-color: none; /* Boja dugmadi */
     color: white; /* Boja teksta dugmadi */
     border-radius: 30px; /* Zaobljenici */
     padding: 10px 20px; /* Unutrašnji razmak */
