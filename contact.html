@@ -1,87 +1,66 @@
-<form
-  enctype="multipart/form-data"
-  action="https://formspree.io/f/xyyawrge"
-  method="POST"
-  style="display: flex; flex-direction: column; row-gap: 30px"
->
-  <input type="hidden" name="_next" value="https://gdesignthings.com/thank-you" />
-  
-  <input type="email" name="Email" placeholder="Enter your email" required />
-  <input type="text" name="Name" placeholder="Your name" required />
-  
-  <div class="question">
-    <h2>Logo should represent?</h2>
-    <h3>How would you describe your business?</h3>
-  </div>
-
-  <div style="display: flex; flex-direction: row; column-gap: 30px;">
-    <div style="width: 50%">
-      <div class="radio-group">
-        <input type="radio" id="radio1" name="Logo_should_represent" value="Organized company" />
-        <label for="radio1">Organized company</label>
+<!DOCTYPE html>
+<html lang="zxx">
+  <head>
+    <!-- Metas -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="keywords" content="logo design, branding, visual identity, graphic design, typography, vector, illustration, creative, minimalist, modern, custom, professional, business, marketing, advertising, digital, print, art, concept, signature" />
+    <meta name="description" content="Looking for someone who thinks outside of the box? Let’s get started!" />
+    <meta name="author" content="Goran Jugovic" />
+    <meta property="og:image" content="./img/Port.jpg" />
+    <title>G.designthings</title>
+    <link rel="shortcut icon" href="img/favicon.ico" />
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/plugins.css" />
+    <link rel="stylesheet" href="css/style1.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css" />
+  </head>
+  <body>
+    <header class="works-header fixed-slider hfixd valign">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-9 col-md-11 static">
+            <div class="capt mt-50">
+              <div class="parlx">
+                <h2 class="custom-font-wrong" style="font-weight: 500; font-size: 90px; text-shadow: none; letter-spacing: -2px; margin-bottom: 5px;">Share Your <span style="color: #BAFF29; font-size: 90px; margin-left: 5px;">Vision.</span></h2>
+                <p style="margin-top: 20px;">Let’s shape your brand together and elevate your business. Share your vision below, and I’ll get in touch soon to discuss how we can bring it to life.</p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="radio-group">
-        <input type="radio" id="radio2" name="Logo_should_represent" value="Startup" />
-        <label for="radio2">Startup</label>
-      </div>
+    </header>
+    <div class="main-content">
+      <section class="contact section-padding">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="form md-mb50">
+                <h4 class="extra-title mb-50" style="font-size: 110%;">Help Us Understand Your Business</h4>
+                <p style="font-size: 105%; color: #BAFF29; margin-bottom: 20px;">Fill out the form below, and I’ll respond via email soon!</p>
+                <form enctype="multipart/form-data" action="https://formspree.io/f/xyyawrge" method="POST" style="display: flex; flex-direction: column; row-gap: 30px">
+                  <input type="email" name="Email" placeholder="Enter your email" required />
+                  <input type="text" name="Name" placeholder="Your name" required />
+                  <div class="question">
+                    <h2>What is your estimated budget for this project?</h2>
+                    <h3>(Optional) Helps us tailor a proposal that fits your needs.</h3>
+                    <select name="Estimated_Budget" style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 5px;">
+                      <option value="" disabled selected>Select your budget range</option>
+                      <option value="Less than $300">Less than $300</option>
+                      <option value="$300 - $700">$300 - $700</option>
+                      <option value="$700 - $1,500">$700 - $1,500</option>
+                      <option value="$1,500 - $3,000">$1,500 - $3,000</option>
+                      <option value="More than $3,000">More than $3,000</option>
+                    </select>
+                  </div>
+                  <input type="submit" value="Let’s Get Started" class="btn-curve btn-lit" style="background-color: #151921; color: #BAFF29; border: 2px solid #BAFF29; border-radius: 5px; padding: 20px 40px; font-weight: normal; font-size: 25px;" />
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
-    <div style="width: 50%">
-      <div class="radio-group">
-        <input type="radio" id="radio3" name="Logo_should_represent" value="Freelance" />
-        <label for="radio3">Freelance</label>
-      </div>
-      <div class="radio-group">
-        <input type="radio" id="radio4" name="Logo_should_represent" value="Organization" />
-        <label for="radio4">Organization</label>
-      </div>
-    </div>
-  </div>
-
-  <div class="question">
-    <h2>Select your industry</h2>
-    <input type="text" name="Select_your_industry" placeholder="e.g., Technology, Healthcare, Retail" />
-  </div>
-
-  <div class="question">
-    <h2>How big is your company?</h2>
-    <h3>Number of employees? Revenue?</h3>
-    <input type="text" name="How_big_is_your_company" placeholder="e.g., 1-10 employees, $100K revenue" />
-  </div>
-
-  <div class="question">
-    <h2>What name do you want in your logo?</h2>
-    <input type="text" name="Name_in_logo" placeholder="Your brand name" />
-  </div>
-
-  <div class="question">
-    <h2>Any other information or specifics?</h2>
-    <textarea name="Other_information" rows="4" placeholder="Tell us more about your project..." style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 5px;"></textarea>
-  </div>
-
-  <!-- Budget Question (Now Optional) -->
-  <div class="question">
-    <h2>What is your estimated budget for this project?</h2>
-    <h3>(Optional) Helps us tailor a proposal that fits your needs.</h3>
-    <select name="Estimated_Budget" style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 5px;">
-      <option value="" disabled selected>Select your budget range</option>
-      <option value="Less than $300">Less than $300</option>
-      <option value="$300 - $700">$300 - $700</option>
-      <option value="$700 - $1,500">$700 - $1,500</option>
-      <option value="$1,500 - $3,000">$1,500 - $3,000</option>
-      <option value="More than $3,000">More than $3,000</option>
-    </select>
-  </div>
-
-  <!-- Google reCAPTCHA -->
-  <div class="g-recaptcha" data-sitekey="YOUR_RECAPTCHA_SITE_KEY"></div>
-
-  <input
-    type="submit"
-    value="Let’s Get Started"
-    class="btn-curve btn-lit"
-    style="background-color: #151921; color: #BAFF29; border: 2px solid #BAFF29; border-radius: 5px; padding: 20px 40px; font-weight: normal; font-size: 25px;"
-  />
-</form>
-
-<!-- Load reCAPTCHA script -->
-<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+  </body>
+</html>
