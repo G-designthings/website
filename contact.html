@@ -196,71 +196,67 @@
     name="Email"
     placeholder="Email"
     required
+    style="margin-bottom: 25px;"
   />
-  <input type="text" name="Name" placeholder="Name" required />
+  <input type="text" name="Name" placeholder="Name" required style="margin-bottom: 25px;" />
 
-  <div
-    style="
-      display: flex;
-      flex-direction: column;
-      column-gap: 30px;
-    "
-  >
-   <div class="question">
-  <h2>What should your logo represent?</h2>
-  <h3>Select the best option that aligns with your brand identity.</h3>
-  <select name="Logo_Representation" required style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 5px;">
-    <option value="" disabled selected>Select an option</option>
-    <option value="Organized company">Organized Company</option>
-    <option value="Startup">Startup</option>
-    <option value="Freelancer">Freelancer</option>
-    <option value="Organization">Organization</option>
-    <option value="Personal Brand">Personal Brand</option>
-    <option value="Not sure yet">Not sure yet</option>
-  </select>
-</div>
-</div>
-  <div class="question">
-    <h2>What name do you want in your logo?</h2>
-    <input type="text" name="Name_in_logo" />
+  <div class="question" style="margin-bottom: 25px;">
+    <h2 style="margin-bottom: 10px;">What should your logo represent?</h2>
+    <h3 style="margin-bottom: 10px;">Select the best option that aligns with your brand identity.</h3>
+    <select name="Logo_Representation" required style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 5px;">
+      <option value="" disabled selected>Select an option</option>
+      <option value="Organized company">Organized Company</option>
+      <option value="Startup">Startup</option>
+      <option value="Freelancer">Freelancer</option>
+      <option value="Organization">Organization</option>
+      <option value="Personal Brand">Personal Brand</option>
+      <option value="Not sure yet">Not sure yet</option>
+    </select>
   </div>
-  <div class="question">
-  <h2>Describe your company</h2>
-  <h3>Tell us about your industry, number of employees, and any relevant details.</h3>
-  <textarea name="Company_Description" rows="4" style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 5px;" 
-  placeholder="E.g., e.g., Technology Ai startup with 50 employees and annual revenue of $2M."></textarea>
-</div>
-  <div class="question">
-  <h2>Select the service you need</h2>
-  <h3>This helps me tailor a proposal that fits your needs.</h3>
-  <select name="Service_Type" required style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 5px;">
-    <option value="" disabled selected>Select a service</option>
-    <option value="Logo Design">Logo Design</option>
-    <option value="Full Branding Package">Full Branding Package</option>
-    <option value="Both (Logo + Branding)">Both (Logo + Branding)</option>
-  </select>
-</div>
 
-<div class="question">
-  <h2>What is your estimated budget for this project?</h2>
-  <h3>Pricing depends on the scope of work. This helps me tailor a proposal that fits your needs.</h3>
-  <select name="Estimated_Budget" required style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 5px;">
-    <option value="" disabled selected>Select your budget range</option>
-    <option value="Less than $500">Less than $500</option>
-    <option value="$500 - $1,500">$500 - $1,500</option>
-    <option value="More than $1,500">More than $1,500</option>
-    <option value="Not sure">Not sure</option>
-  </select>
-</div>
+  <div class="question" style="margin-bottom: 25px;">
+    <h2 style="margin-bottom: 10px;">What name do you want in your logo?</h2>
+    <input type="text" name="Name_in_logo" style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 5px;" />
+  </div>
 
+  <div class="question" style="margin-bottom: 25px;">
+    <h2 style="margin-bottom: 10px;">Describe your company</h2>
+    <h3 style="margin-bottom: 10px;">Tell us about your industry, number of employees, and any relevant details.</h3>
+    <textarea name="Company_Description" rows="4" style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 5px;" 
+    placeholder="E.g., Technology AI startup with 50 employees and annual revenue of $2M."></textarea>
+  </div>
 
- <input
-  type="submit"
-  value="Let’s Get Started"
-  class="btn-curve btn-lit"
-  style="background-color: #151921; color: #BAFF29; border: 2px solid #BAFF29; border-radius: 5px; padding: 20px 40px; font-weight: normal; font-size: 25px;"
-/>
+  <div class="question" style="margin-bottom: 25px;">
+    <h2 style="margin-bottom: 10px;">Select the service you need</h2>
+    <h3 style="margin-bottom: 10px;">This helps me tailor a proposal that fits your needs.</h3>
+    <select name="Service_Type" required style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 5px;">
+      <option value="" disabled selected>Select a service</option>
+      <option value="Logo Design">Logo Design</option>
+      <option value="Full Branding Package">Full Branding Package</option>
+      <option value="Both (Logo + Branding)">Both (Logo + Branding)</option>
+    </select>
+  </div>
+
+  <div class="question" style="margin-bottom: 25px;">
+    <h2 style="margin-bottom: 10px;">What is your estimated budget for this project?</h2>
+    <h3 style="margin-bottom: 10px;">Pricing depends on the scope of work. This helps me tailor a proposal that fits your needs.</h3>
+    <select name="Estimated_Budget" required style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 5px;">
+      <option value="" disabled selected>Select your budget range</option>
+      <option value="Less than $500">Less than $500</option>
+      <option value="$500 - $1,500">$500 - $1,500</option>
+      <option value="More than $1,500">More than $1,500</option>
+      <option value="Not sure">Not sure</option>
+    </select>
+  </div>
+
+  <input
+    type="submit"
+    value="Let’s Get Started"
+    class="btn-curve btn-lit"
+    style="background-color: #151921; color: #BAFF29; border: 2px solid #BAFF29; border-radius: 5px; padding: 20px 40px; font-weight: normal; font-size: 25px;"
+  />
 </form>
+
 
 <!-- ==================== End Contact ==================== -->
 
