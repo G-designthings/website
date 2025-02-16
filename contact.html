@@ -206,60 +206,20 @@
       column-gap: 30px;
     "
   >
-    <div class="question">
-      <h2>Logo should represent?</h2>
-      <h3>How would you describe your business?</h3>
-    </div>
+   <div class="question">
+  <h2>What should your logo represent?</h2>
+  <h3>Select the best option that aligns with your brand identity.</h3>
+  <select name="Logo_Representation" required style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 5px;">
+    <option value="" disabled selected>Select an option</option>
+    <option value="Organized company">Organized Company</option>
+    <option value="Startup">Startup</option>
+    <option value="Freelancer">Freelancer</option>
+    <option value="Organization">Organization</option>
+    <option value="Personal Brand">Personal Brand</option>
+    <option value="Not sure yet">Not sure yet</option>
+  </select>
+</div>
 
-    <div
-      style="
-        display: flex;
-        flex-direction: row;
-        column-gap: 30px;
-      "
-    >
-      <div style="width: 50%">
-        <div class="radio-group">
-          <input
-            type="radio"
-            id="radio1"
-            name="Logo_should_represent"
-            value="Organized company"
-          />
-          <label for="radio1">Organized company</label>
-        </div>
-        <div class="radio-group">
-          <input
-            type="radio"
-            id="radio2"
-            name="Logo_should_represent"
-            value="Startup"
-          />
-          <label for="radio2">Startup</label>
-        </div>
-      </div>
-      <div style="width: 50%">
-        <div class="radio-group">
-          <input
-            type="radio"
-            id="radio3"
-            name="Logo_should_represent"
-            value="Freelance"
-          />
-          <label for="radio3">Freelance</label>
-        </div>
-        <div class="radio-group">
-          <input
-            type="radio"
-            id="radio4"
-            name="Logo_should_represent"
-            value="Organization"
-          />
-          <label for="radio4">Organization</label>
-        </div>
-      </div>
-    </div>
-  </div>
   <div class="question">
     <h2>What name do you want in your logo?</h2>
     <input type="text" name="Name_in_logo" />
