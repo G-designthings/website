@@ -56,14 +56,15 @@
 
   <!-- Favicon -->
   <link rel="shortcut icon" href="img/favicon.ico" />
-  <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon.png">
 
   <!-- Google Fonts (Only Poppins) -->
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
 
-  <!-- Minified Plugins and Styles (Only minified) -->
+  <!-- Minified Plugins and Styles -->
   <link rel="stylesheet" href="css/plugins.min.css" />
   <link rel="stylesheet" href="css/style1.min.css" />
+  <link rel="stylesheet" href="css/plugins.css" />
+  <link rel="stylesheet" href="css/style1.css" />
 </head>
 
 <body>
@@ -104,7 +105,7 @@
   <nav class="navbar navbar-expand-lg">
     <div class="container">
       <!-- Logo -->
-      <a class="logo" href="/">
+      <a class="logo" href="index.html#">
         <img src="img/logo-light.png" alt="logo" />
       </a>
 
@@ -150,6 +151,111 @@
       </div>
     </div>
   </nav>
+  <!-- ==================== End Navbar ==================== -->
+
+  
+<!-- Mobilna verzija, sa vertikalnim poravnanjem -->
+<div class="cont cner mobile-screen">
+    <div class="name">
+        CRAFTING <br />
+        <span class="highlight">TIMELESS</span>
+        <span class="highlight-light"> BRANDS®</span>
+    </div>
+
+    <div class="slogan">
+        Need bold, outside-the-box Logo and branding solutions?
+    </div>
+
+    <div class="lets">
+        <a href="#contact" class="btn-curve btn-lit">
+            <span>Let's Connect</span>
+        </a>
+    </div>
+
+    <div class="social-icon">
+        <a target="_blank" rel="noopener" href="https://www.linkedin.com/in/goran-jugovic-261401a3/" class="icon">
+            <i class="fab fa-linkedin"></i>
+        </a>
+        <a target="_blank" rel="noopener" href="https://dribbble.com/g_designthings" class="icon">
+            <i class="fab fa-dribbble"></i>
+        </a>
+        <a target="_blank" rel="noopener" href="https://www.instagram.com/g.designthings/?hl=en" class="icon">
+            <i class="fab fa-instagram"></i>
+        </a>
+        <a target="_blank" rel="noopener" href="https://www.pinterest.com/Gdesignthings/" class="icon">
+            <i class="fab fa-pinterest"></i>
+        </a>
+    </div>
+</div>
+
+<style>
+    .mobile-screen {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 100vh;
+        text-align: center;
+    }
+
+    .name {
+        font-size: 120px;
+        letter-spacing: -1px;
+        color: #BAFF29;
+        line-height: 1em;
+        margin-bottom: 25px;
+        font-weight: 500;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .highlight {
+        color: #BAFF29;
+        font-weight: 500;
+    }
+
+    .highlight-light {
+        color: #BAFF29;
+        font-weight: 200;
+    }
+
+    .slogan {
+        font-size: 18px;
+        color: white;
+        margin-bottom: 20px;
+    }
+
+    .lets {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .social-icon {
+        margin-top: 20px; /* Razmak iznad ikona */
+    }
+
+    .social-icon .icon {
+        display: inline-block; /* Ikone u redu */
+        margin: 0 10px; /* Razmak između ikona */
+        color: white; /* Boja ikona */
+        font-size: 24px; /* Veličina ikona */
+    }
+
+    @media (max-width: 768px) {
+        .name {
+            font-size: 77px; /* Font 77px za mobilne uređaje */
+        }
+
+        .social-icon .icon {
+            width: 20px; /* Manje ikone za mobilne uređaje */
+            height: 45px;
+            line-height: 20px;
+            font-size: 20px;
+        }
+
+        .mobile-screen {
+            justify-content: center; /* Vertikalno centriranje */
+        }
+    }
+</style>
   <!-- ==================== End Navbar ==================== -->
 
 
