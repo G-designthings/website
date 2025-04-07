@@ -6788,4 +6788,30 @@ footer {
     box-sizing: border-box; /* Osigurava da padding ne utiče na ukupnu širinu */
 }
 
+/* ========== Portfolio Grid Fix ========== */
+
+.gallery.full-width.row .item-img img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  display: block;
+  aspect-ratio: 1 / 1; /* Ključno za lazy-loaded slike */
+  border-radius: 8px;
+}
+
+/* Grid fallback za mobilne uređaje */
+@media (max-width: 768px) {
+  .gallery.full-width.row .col-md-4 {
+    width: 100% !important;
+    margin-bottom: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .gallery.full-width.row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
 
