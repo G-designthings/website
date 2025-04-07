@@ -6579,16 +6579,12 @@ button:hover {
 .icon1 {
   color: #BAFF29;
 }
+/* Defaultno: desktop – sakriva mobilnu verziju */
 .mobile-screen {
   display: none;
-  flex-direction: column;
 }
 
-.custom-width {
-  width: 20px;
-  height: 20px;
-}
-
+/* Stilovi za social ikonice u mobilnoj sekciji */
 .freelancer .mobile-screen .cont .social-icon a {
   width: 25px;
   height: 25px;
@@ -6599,118 +6595,145 @@ button:hover {
   margin-right: 5px;
 }
 
-/* For screens smaller than 576px (e.g. smartphones) */
+/* ==================== Mobile (manje od 576px) ==================== */
 @media (max-width: 575.98px) {
   .mobile-screen {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
   }
+
   .desktop-screen {
     display: none;
   }
+
   .mouse-cursor {
     display: none;
   }
+
   .name {
     font-size: 30px;
   }
+
   .looking {
     font-size: 20px;
     font-weight: 400;
   }
+
   .lets a span {
     font-weight: 500;
     font-size: 20px;
   }
+
   .lets a {
     margin-bottom: 0;
   }
+
   .designing {
     font-size: 26px;
     font-family: "Poppins";
     font-weight: 600;
     color: white;
   }
+
   .up-ar {
     display: none;
   }
 }
 
-/* For screens between 576px and 768px (e.g. tablets) */
+/* ==================== Tablet (576px–767.98px) ==================== */
 @media (min-width: 576px) and (max-width: 767.98px) {
   .mouse-cursor {
     display: none;
   }
+
   .name {
     font-size: 40px;
   }
+
   .looking {
     font-size: 24px;
     font-weight: 500;
   }
+
   .lets a span {
     font-weight: 500;
     font-size: 20px;
   }
+
   .lets a {
     margin-bottom: 0;
   }
+
   .designing {
     font-size: 26px;
     font-family: "Poppins";
     font-weight: 600;
     color: white;
   }
+
   .up-ar {
     display: none;
   }
 }
 
-/* For screens between 768px and 992px (e.g. small laptops) */
+/* ==================== Small laptops (768px–991.98px) ==================== */
 @media (min-width: 768px) and (max-width: 991.98px) {
   .name {
     font-size: 50px;
   }
+
   .looking {
     font-size: 24px;
     font-weight: 500;
   }
+
   .lets a span {
     font-weight: 500;
     font-size: 20px;
   }
+
   .lets a {
     margin-bottom: 0;
   }
+
   .designing {
     font-size: 26px;
     font-family: "Poppins";
     font-weight: 600;
     color: white;
   }
+
   .up-ar {
     display: none;
   }
 }
 
-/* For screens between 992px and 1200px (e.g. large laptops) */
+/* ==================== Large laptops (992px–1199.98px) ==================== */
 @media (min-width: 992px) and (max-width: 1199.98px) {
   .cont {
     padding: 0 30px;
   }
+
   .name {
     font-size: 50px;
   }
+
   .looking {
     font-size: 24px;
     font-weight: 500;
   }
+
   .lets a span {
     font-weight: 500;
     font-size: 20px;
   }
+
   .lets a {
     margin-bottom: 0;
   }
+
   .designing {
     font-size: 26px;
     font-family: "Poppins";
@@ -6719,25 +6742,30 @@ button:hover {
   }
 }
 
-/* For screens larger than 1200px (e.g. desktops) */
+/* ==================== Desktops (1200px+) ==================== */
 @media (min-width: 1200px) {
   .cont {
     padding: 0 30px;
   }
+
   .name {
     font-size: 60px;
   }
+
   .looking {
     font-size: 24px;
     font-weight: 500;
   }
+
   .lets a span {
     font-weight: 500;
     font-size: 20px;
   }
+
   .lets a {
     margin-bottom: 0;
   }
+
   .designing {
     font-size: 26px;
     font-family: "Poppins";
@@ -6745,6 +6773,7 @@ button:hover {
     color: white;
   }
 }
+
 
 /* ==================== Custom Styles for Services Section ==================== */
 
