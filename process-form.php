@@ -1,7 +1,7 @@
 <?php
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $to = "g.designthings.service@gmail.com";
+    $to = "ask@gdesignthings.com";
     $subject = "New form submission";
 
     // Sanitizacija podataka
