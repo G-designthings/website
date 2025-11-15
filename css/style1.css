@@ -6814,4 +6814,56 @@ footer {
     align-items: center;
   }
 }
+.contact-section {
+  padding: 80px 0;
+  text-align: center;
+  color: #fff;
+}
+
+.contact-section h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+
+.contact-section p {
+  font-size: 18px;
+  line-height: 1.7;
+  max-width: 600px;
+  margin: 0 auto;
+  color: #d0d0d0;
+}
+
+.contact-section a {
+  color: #BAFF29;
+  text-decoration: none;
+}
+
+.copy-btn {
+  margin-top: 25px;
+  padding: 12px 22px;
+  background: #BAFF29;
+  color: #000;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.insta-link {
+  margin-top: 30px;
+}
+
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInMove 1.2s ease-out forwards;
+}
+
+@keyframes fadeInMove {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
 
