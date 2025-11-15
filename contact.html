@@ -198,26 +198,28 @@
         <div class="form md-mb50">
           <h4 class="extra-title mb-50" style="font-size: 110%;">Help Me Understand Your Business</h4>
           <p style="font-size: 105%; color: #BAFF29; margin-bottom: 20px;">
-            Fill out the form below, and I’ll respond via email soon!
+            Drop me an email, and I’ll respond via email soon!
           </p>
         <!-- ================ Form Start ================ -->
 
-<section class="contact-section fade-in">
-  <h2>Let's work together</h2>
+<div class="email-box">
+  <textarea id="clientMessage" placeholder="Write your message here..." required></textarea>
 
-  <p>
-    For project inquiries or questions, send me a direct email at
-    <a href="mailto:ask@gdesignthings.com">ask@gdesignthings.com</a>.
-  </p>
+  <button onclick="sendEmail()" class="send-btn">Send Message</button>
+</div>
 
-  <button onclick="navigator.clipboard.writeText('ask@gdesignthings.com')" class="copy-btn">
-    Copy Email
-  </button>
+<script>
+function sendEmail() {
+  const message = document.getElementById("clientMessage").value;
+  const email = "ask@gdesignthings.com";
+  const subject = "New Project Inquiry";
 
-  <p class="insta-link">
-    <a href="https://instagram.com/gdesignthings" target="_blank">@gdesignthings</a>
-  </p>
-</section>
+  const mailtoLink = `mailto:${email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(message)}`;
+
+  window.location.href = mailtoLink;
+}
+</script>
+
 
 
 
