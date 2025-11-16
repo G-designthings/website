@@ -6912,4 +6912,43 @@ footer {
     padding-top: 60px;
   }
 }
+/* ================= Mobile Hero Improvements ================ */
+
+@media (max-width: 768px) {
+  .mobile-screen {
+    height: auto;
+    min-height: 75vh;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .mobile-screen .name {
+    font-size: 54px;
+    line-height: 1.05;
+    letter-spacing: -1px;
+    margin-bottom: 10px;
+  }
+
+  .mobile-screen .slogan {
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    line-height: 1.4;
+  }
+
+  .mobile-screen .lets {
+    margin-top: 10px;
+  }
+}
+@media (max-width: 480px) {
+  header.freelancer {
+    background-size: 150%;
+  }
+}
+
+
+
 
