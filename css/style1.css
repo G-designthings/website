@@ -6906,4 +6906,10 @@ footer {
     padding-bottom: 40px;
   }
 }
+@media (max-width: 768px) {
+  .mobile-screen {
+    justify-content: flex-start;
+    padding-top: 60px;
+  }
+}
 
