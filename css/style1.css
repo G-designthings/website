@@ -6943,11 +6943,13 @@ footer {
     margin-top: 10px;
   }
 }
-@media (max-width: 480px) {
+@media (max-width: 768px) {
   header.freelancer {
-    background-size: 150%;
+    background-size: 120%;
+    background-position: top center;
   }
 }
+
 
 
 
