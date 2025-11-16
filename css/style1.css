@@ -6899,3 +6899,11 @@ footer {
   font-size: 16px;
   cursor: pointer;
 }
+@media (max-width: 768px) {
+  .mobile-screen {
+    height: 75vh; /* manja visina */
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+}
+
