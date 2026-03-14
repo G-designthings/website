@@ -33,6 +33,9 @@
     <link rel="stylesheet" href="css/style1.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css" />
 
+    <!-- hCaptcha -->
+    <script src="https://js.hcaptcha.com/1/api.js" async defer></script>
+
     <style>
       .email-box input[type="text"],
       .email-box input[type="email"],
@@ -60,6 +63,19 @@
       .email-box textarea:focus {
         outline: none;
         border-color: #ffffff;
+      }
+      .email-box input.invalid {
+        border-color: #ff4444;
+      }
+      .error-msg {
+        color: #ff4444;
+        font-size: 13px;
+        margin-top: -10px;
+        margin-bottom: 15px;
+        display: none;
+      }
+      .h-captcha {
+        margin-bottom: 15px;
       }
     </style>
   </head>
@@ -129,16 +145,24 @@
                   Drop me a message, and I'll respond via email soon!
                 </p>
 
-                <form action="https://api.web3forms.com/submit" method="POST">
+                <form id="contactForm" action="https://api.web3forms.com/submit" method="POST">
                   <input type="hidden" name="access_key" value="ee846c7c-e706-4d76-9d78-45afa6eb91f5" />
                   <input type="hidden" name="subject" value="New Project Inquiry – G.designthings" />
                   <input type="hidden" name="redirect" value="https://gdesignthings.com/thank-you.html" />
                   <input type="hidden" name="from_name" value="G.designthings Website" />
+                  <input type="hidden" name="replyto" value="" id="replyto-field" />
 
                   <div class="email-box">
                     <input type="text" name="name" placeholder="Your Name" required />
-                    <input type="email" name="email" placeholder="Your Email" required />
+
+                    <input type="email" name="email" id="emailInput" placeholder="Your Email" required />
+                    <p class="error-msg" id="emailError">Please enter a valid email address.</p>
+
                     <textarea name="message" placeholder="Tell me about your project..." required></textarea>
+
+                    <!-- hCaptcha -->
+                    <div class="h-captcha" data-sitekey="50b2fe65-b00b-4b9e-ad62-3ba471098be4"></div>
+
                     <button type="submit" class="send-btn">Send Message</button>
                   </div>
                 </form>
@@ -209,5 +233,36 @@
     <script src="js/plugins.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
     <script src="js/scripts.js"></script>
+
+    <script>
+      const form = document.getElementById('contactForm');
+      const emailInput = document.getElementById('emailInput');
+      const emailError = document.getElementById('emailError');
+
+      // Email validation
+      emailInput.addEventListener('blur', function() {
+        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        if (!emailRegex.test(emailInput.value)) {
+          emailInput.classList.add('invalid');
+          emailError.style.display = 'block';
+        } else {
+          emailInput.classList.remove('invalid');
+          emailError.style.display = 'none';
+        }
+      });
+
+      // Set replyto on submit
+      form.addEventListener('submit', function(e) {
+        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        if (!emailRegex.test(emailInput.value)) {
+          e.preventDefault();
+          emailInput.classList.add('invalid');
+          emailError.style.display = 'block';
+          return;
+        }
+        document.getElementById('replyto-field').value = emailInput.value;
+      });
+    </script>
+
   </body>
 </html>
