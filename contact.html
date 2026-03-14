@@ -34,6 +34,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css" />
 
     <style>
+      .email-box input[type="text"],
       .email-box input[type="email"],
       .email-box textarea {
         width: 100%;
@@ -128,11 +129,14 @@
                   Drop me a message, and I'll respond via email soon!
                 </p>
 
-                <form action="https://formspree.io/f/xyyawrge" method="POST">
-                  <input type="hidden" name="_next" value="https://gdesignthings.com/thank-you.html" />
-                  <input type="hidden" name="_subject" value="New Project Inquiry – G.designthings" />
+                <form action="https://api.web3forms.com/submit" method="POST">
+                  <input type="hidden" name="access_key" value="ee846c7c-e706-4d76-9d78-45afa6eb91f5" />
+                  <input type="hidden" name="subject" value="New Project Inquiry – G.designthings" />
+                  <input type="hidden" name="redirect" value="https://gdesignthings.com/thank-you.html" />
+                  <input type="hidden" name="from_name" value="G.designthings Website" />
 
                   <div class="email-box">
+                    <input type="text" name="name" placeholder="Your Name" required />
                     <input type="email" name="email" placeholder="Your Email" required />
                     <textarea name="message" placeholder="Tell me about your project..." required></textarea>
                     <button type="submit" class="send-btn">Send Message</button>
