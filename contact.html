@@ -160,8 +160,7 @@
 
                     <textarea name="message" placeholder="Tell me about your project..." required></textarea>
 
-                    <!-- hCaptcha -->
-                    <div class="h-captcha" data-sitekey="50b2fe65-b00b-4b9e-ad62-3ba471098be4"></div>
+                    <div class="h-captcha" data-sitekey="b79646d4-5b22-4a78-8a8e-171e79a4ae22"></div>
 
                     <button type="submit" class="send-btn">Send Message</button>
                   </div>
@@ -239,7 +238,6 @@
       const emailInput = document.getElementById('emailInput');
       const emailError = document.getElementById('emailError');
 
-      // Email validation
       emailInput.addEventListener('blur', function() {
         const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
         if (!emailRegex.test(emailInput.value)) {
@@ -251,7 +249,6 @@
         }
       });
 
-      // Set replyto on submit
       form.addEventListener('submit', function(e) {
         const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
         if (!emailRegex.test(emailInput.value)) {
