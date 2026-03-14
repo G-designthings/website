@@ -33,9 +33,6 @@
     <link rel="stylesheet" href="css/style1.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css" />
 
-    <!-- hCaptcha -->
-    <script src="https://js.hcaptcha.com/1/api.js" async defer></script>
-
     <style>
       .email-box input[type="text"],
       .email-box input[type="email"],
@@ -73,9 +70,6 @@
         margin-top: -10px;
         margin-bottom: 15px;
         display: none;
-      }
-      .h-captcha {
-        margin-bottom: 15px;
       }
     </style>
   </head>
@@ -151,6 +145,8 @@
                   <input type="hidden" name="redirect" value="https://gdesignthings.com/thank-you.html" />
                   <input type="hidden" name="from_name" value="G.designthings Website" />
                   <input type="hidden" name="replyto" value="" id="replyto-field" />
+                  <!-- Honeypot spam zaštita -->
+                  <input type="checkbox" name="botcheck" style="display:none" />
 
                   <div class="email-box">
                     <input type="text" name="name" placeholder="Your Name" required />
@@ -159,8 +155,6 @@
                     <p class="error-msg" id="emailError">Please enter a valid email address.</p>
 
                     <textarea name="message" placeholder="Tell me about your project..." required></textarea>
-
-                    <div class="h-captcha" data-sitekey="b79646d4-5b22-4a78-8a8e-171e79a4ae22"></div>
 
                     <button type="submit" class="send-btn">Send Message</button>
                   </div>
