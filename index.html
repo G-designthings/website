@@ -60,9 +60,29 @@
   </script>
 
   <link rel="shortcut icon" href="img/favicon.ico" />
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="css/plugins.css" />
   <link rel="stylesheet" href="css/style1.css" />
+
+  <style>
+    .mobile-screen { display: flex; flex-direction: column; justify-content: center; height: 100vh; text-align: center; }
+    .name { font-size: 120px; letter-spacing: -1px; color: #BAFF29; line-height: 1em; margin-bottom: 25px; font-weight: 500; font-family: 'Poppins', sans-serif; }
+    .highlight { color: #BAFF29; font-weight: 500; }
+    .highlight-light { color: #BAFF29; font-weight: 200; }
+    .slogan { font-size: 18px; color: white; margin-bottom: 20px; }
+    .lets { text-align: center; margin-bottom: 20px; }
+    .social-icon { margin-top: 20px; }
+    .social-icon .icon { display: inline-block; margin: 0 10px; color: white; font-size: 24px; }
+    @media (max-width: 768px) {
+      #preloader { display: none !important; }
+      .name { font-size: 77px; }
+      .social-icon .icon { width: 20px; height: 45px; line-height: 20px; font-size: 20px; }
+      .mobile-screen { justify-content: center; }
+    }
+  </style>
+
 </head>
 
 <body>
@@ -124,22 +144,6 @@
     </div>
   </div>
 
-  <style>
-    .mobile-screen { display: flex; flex-direction: column; justify-content: center; height: 100vh; text-align: center; }
-    .name { font-size: 120px; letter-spacing: -1px; color: #BAFF29; line-height: 1em; margin-bottom: 25px; font-weight: 500; font-family: 'Poppins', sans-serif; }
-    .highlight { color: #BAFF29; font-weight: 500; }
-    .highlight-light { color: #BAFF29; font-weight: 200; }
-    .slogan { font-size: 18px; color: white; margin-bottom: 20px; }
-    .lets { text-align: center; margin-bottom: 20px; }
-    .social-icon { margin-top: 20px; }
-    .social-icon .icon { display: inline-block; margin: 0 10px; color: white; font-size: 24px; }
-    @media (max-width: 768px) {
-      .name { font-size: 77px; }
-      .social-icon .icon { width: 20px; height: 45px; line-height: 20px; font-size: 20px; }
-      .mobile-screen { justify-content: center; }
-    }
-  </style>
-
   <div class="hero-sec section-padding" id="about">
     <div class="container">
       <div class="row">
@@ -188,7 +192,6 @@
       </div>
       <div class="row">
 
-        <!-- Essential Logo -->
         <div class="col-lg-4">
           <div class="item md-mb50 wow fadeInUp service-item" style="height: 100%" data-wow-delay=".5s">
             <span class="icon pe-7s-vector"></span>
@@ -217,7 +220,6 @@
           </div>
         </div>
 
-        <!-- Brand Identity System -->
         <div class="col-lg-4">
           <div class="item md-mb50 wow fadeInUp service-item" style="height: 100%" data-wow-delay=".5s">
             <span class="icon pe-7s-rocket"></span>
@@ -255,7 +257,6 @@
           </div>
         </div>
 
-        <!-- Booking -->
         <div class="col-lg-4">
           <div class="item md-mb50 wow fadeInUp service-item" style="height: 100%" data-wow-delay=".5s">
             <span class="icon pe-7s-bookin"></span>
